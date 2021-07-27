@@ -12,7 +12,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/tcz-ntej-xad]
 
 ### Avisos ativos
 
-- Até o momento cobrimos 30 Tópicos, cujas atividades devem ser, necessariamente, respondidas no prazo previsto.<br>O próximo tópico – **Tópico 31** – sugere uma brevíssima pausa com respeito à submissão de atividades, mas solicita alguns pontos de atenção nesse curtíssimo tempo.<br>**Então, nossa próxima sessão síncrona será em _31/Maio/2021_. Por favor anotem.**
+- Ao criar uma *issue*, selecione um dos *templates*: **Tópico** ou **Dúvida**.
 - Importante: O **Tópico T01** se refere à criação de um repositório **público** no **GitHub** para cada aluno.
 <br>
 <br>
