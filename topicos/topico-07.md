@@ -1,4 +1,4 @@
-## [Tópico T03] - Requisitos de Dados
+## [Tópico T07] - Requisitos de Dados
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Há problemas no mundo real cuja solução pode ser alcançada por meio de **software**. As necessidades e restrições colocadas em um produto de software são representadas pela especificação de **requisitos de software**. Então, a análise, elicitação e especificação de requisitos é uma das etapas do **processo de software**. Requisitos de Software podem ser expressos em **artefatos**, cuja construção em geral aplica **modelos** e emprega **notações** tal como a UML, com o apoio de **ferramentas** na escrita desses artefatos.
@@ -44,7 +44,7 @@ Observe que esses requisitos de dados incluem um conjunto de demandas informacio
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder conforme a seguir:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 07", para responder conforme a seguir:  
 1. Leia e releia os requisitos de dados pertinentes ao **BD Empresa**. Identifique 05 (cinco) pontos de imprecisão nos requisitos, conforme o exemplo abaixo.<br>
 **Ponto 1:** Não está claro se um dependente é obrigatoriamente um parente do seu empregado responsável.<br>
 **Ponto 2:** ...<br>
@@ -54,7 +54,7 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 03", para indicar suas reflexões sobre os *requisitos de dados* para o **BD Empresa**.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 07", para indicar suas reflexões sobre os *requisitos de dados* para o **BD Empresa**.
 
 ### Bibliografia
 
