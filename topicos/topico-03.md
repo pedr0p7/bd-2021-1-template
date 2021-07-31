@@ -16,6 +16,7 @@
 - **Metadados descritivos** descrevem um recurso para fins de identificação e busca, tais como *título*, *resumo*, *autor* e *palavras-chaves*.
 - **Metadados estruturais** indicam como os objetos compostos são colocados juntos, por exemplo, tal como *as páginas são organizadas para formar capítulos*.
 - **Metadados administrativos** fornecem informações para ajudar a gerenciar um recurso, tais como *data de criação do arquivo" e *tipo de arquivo*.
+- Outro(s).
 
 > Os metadados são essenciais para garantir que os recursos possam *sobreviver* e *permanecer* acessíveis no futuro. 
 
