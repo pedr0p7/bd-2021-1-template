@@ -40,10 +40,10 @@ Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pd
 Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (numerado de 0 a 5):
 0. _Descriptive metadata_
 1. _Technical metadata_
-1. _Preservation metadata_
-1. _Rights metadata_
-1. _Structural metadata_
-1. _Markup languages_
+2. _Preservation metadata_
+3. _Rights metadata_
+4. _Structural metadata_
+5. _Markup languages_
 
 **A presente atividade se refere a pesquisar e escrever sobre um dos tipos de metadados**, dentre os elencados acima.
 
