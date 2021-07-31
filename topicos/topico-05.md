@@ -40,12 +40,14 @@ Sobre ambas as independências de dados, a independência física é mais usual 
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Considere o seguinte parágrafo:
+Apenas para refletir:
    - *Para que o sistema seja utilizável, ele deve recuperar os dados com eficiência (tempo). A necessidade de eficiência levou os desenvolvedores de sistema de banco de dados a usar estruturas de dados complexas para representar os dados no banco de dados. Uma vez que muitos usuários do sistema de banco de dados não são treinados em computador, os desenvolvedores escondem a complexidade dos usuários por meio de vários níveis de abstração de dados, para permitir que os usuários interajam efetivamente com o sistema.*<br>
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 05", para responder:  
 
-1. O parágrafo acima se refere à abstração de dados na percepção do banco de dados por distintas categorias de usuários. Se modelos de bancos de dados são recursos empregados para guiar a especificação de esquemas de bancos de dados, então podemos afirmar que **o projeto de banco de dados envolve a aplicação de vários modelos de dados, os quais possuem níveis de abstração distintos entre si**? (Responda Sim/Não e justifique a sua resposta).
+1. _Você consegue **elaborar uma interpretação** (a sua interpretação) sobre **modelos de dados**, que foram inicialmente introduzidos no presente tópico?_ Favor selecionar uma das respostas a seguir:
+   - "Sim, eu consigo ter a minha interpretação sobre **modelos de banco de dados**, que foram inicialmente introduzidos no presente tópico", ou
+   - "Não, pois eu tenho dificuldade em interpretar os conteúdos: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
    
 ## Artefatos
 
