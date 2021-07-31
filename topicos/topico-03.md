@@ -36,6 +36,9 @@ No contexto da área de Banco de Dados, a literatura usa vários termos para se 
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
+Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf).
+
+
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder:  
 1. O livro sugerido [1], Capítulo 1, usa os termos ***processamento de arquivos tradicional*** e ***abordagem de banco de dados*** para se referir a duas estratégias de acesso aos dados. Leia sobre esse conteúdo e compare esses termos, em relação ao:
    1. o **local dos metadados**, ou seja, para cada estratégia qual o local dos metadados; e 
