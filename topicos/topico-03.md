@@ -48,17 +48,13 @@ Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se
 **A presente atividade se refere a pesquisar e escrever sobre um dos tipos de metadados**, dentre os elencados acima.
 
 O tipo de metadados, que você irá escrever sobre, depende da primeira letra do seu primeiro nome (conforme o último algarismo da posição dentre as 26 letras no alfabeto: ABCDEFGHIJKLMNOPQRSTUVWXYZ):
-- para o nome é '**P**línio', a letra **P** está na posição 16, o último algarismo é 6, então o tipo de metadado é "**6. _Markup languages_**".
-
+- para o nome é **Bia**, a letra **B** está na posição 02, o último algarismo é 2, então o tipo de metadado é "**2. _Technical metadata_**".
+- para o nome é **Pedro**, a letra **P** está na posição 16, o último algarismo é 6, então o tipo de metadado é "**6. _Markup languages_**".
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder:  
-1. O livro sugerido [1], Capítulo 1, usa os termos ***processamento de arquivos tradicional*** e ***abordagem de banco de dados*** para se referir a duas estratégias de acesso aos dados. Leia sobre esse conteúdo e compare esses termos, em relação ao:
-   1. o **local dos metadados**, ou seja, para cada estratégia qual o local dos metadados; e 
-   2. a **consequência deste local**, ou seja, para cada estratégia qual o impacto devido ao local dos metadados, quando metadados precisam ser modificados.
-
-[1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
+1. Pesquise sobre o tipo de metadados (escolhido conforme o seu primeiro nome). Então escreva um ou dois parágrafos sobre o mesmo, apresentando exemplos. Apresente também as fontes que você usou na sua pesquisa.
    
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 03", para indicar suas reflexões sobre os *metadados* em uma aplicação.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 03", para indicar suas reflexões sobre um *tipo de metadados*.
 
