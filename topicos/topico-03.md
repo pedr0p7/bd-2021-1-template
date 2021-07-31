@@ -36,7 +36,13 @@ No contexto da área de Banco de Dados, a literatura usa vários termos para se 
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf).
+Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf). Observe que a tabela na segunda página do texto possui 06 linhas, a saber:
+1. Descriptive metadata
+1. Technical metadata
+1. Preservation metadata
+1. Rights metadata
+1. Structural metadata
+1. Markup languages
 
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder:  
