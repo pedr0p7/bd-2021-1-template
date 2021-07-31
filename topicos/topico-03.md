@@ -37,8 +37,8 @@ No contexto da área de Banco de Dados, a literatura usa vários termos para se 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf). Leia e releia o texto.<br>
-Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (numerado de 1 a 6):
-1. _Descriptive metadata_
+Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (numerado de 0 a 5):
+0. _Descriptive metadata_
 1. _Technical metadata_
 1. _Preservation metadata_
 1. _Rights metadata_
