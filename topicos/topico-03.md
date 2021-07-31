@@ -37,7 +37,7 @@ No contexto da área de Banco de Dados, a literatura usa vários termos para se 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf). Leia e releia o texto.<br>
-Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (numerado de 0 a 5):
+Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (identificados de 0 a 5):
 
 0. _Descriptive metadata_
 1. _Technical metadata_
@@ -48,7 +48,14 @@ Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se
 
 **A presente atividade se refere a pesquisar e escrever sobre um dos tipos de metadados**, dentre os elencados acima.
 
-O tipo de metadados, que você irá escrever sobre, depende da primeira letra do seu primeiro nome (conforme o último algarismo da posição dentre as 26 letras no alfabeto: ABCDEFGHIJKLMNOPQRSTUVWXYZ):
+A escolha do tipo de metadados depende da primeira letra do seu primeiro nome:
+|ABCDEFGHIJKLMNOPQRSTUVWXYZ|
+|12345612345612345612345612|
+-
+- determinar a posição **N** da primeira letra do seu primeiro nome, dentre as 26 letras no alfabeto (ABCDEFGHIJKLMNOPQRSTUVWXYZ);
+- O metadado **M**, que você escrever sobre, é identificado pelo resto da divisão de **N** por 06 (seis).
+
+Alguns exemplos:
 - para o nome é **Bia**, a letra **B** está na posição 02, o último algarismo é 2, então o tipo de metadado é "**2. _Technical metadata_**".
 - para o nome é **Pedro**, a letra **P** está na posição 16, o último algarismo é 6, então o tipo de metadado é "**6. _Markup languages_**".
 
