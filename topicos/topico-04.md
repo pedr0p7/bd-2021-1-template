@@ -32,7 +32,7 @@ Algumas benefícios potenciais para o emprego de SGBDs são:
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 04", para responder:  
-1. Dentre os potenciais benefícios para o emprego de SGBDs, escolha dois (dentre os citados acima ou outros) e explique-os de forma objetiva, se possível com exemplos.
+1. Sobre os potenciais benefícios para o emprego de SGBDs, escolha dois (dentre os citados acima ou outros) e explique-os de forma objetiva, se possível com exemplos.
    
 ## Artefatos
 
