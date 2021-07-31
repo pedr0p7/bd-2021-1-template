@@ -47,14 +47,14 @@ Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se
 
 **A presente atividade se refere a pesquisar e escrever sobre um dos tipos de metadados**, dentre os elencados acima.
 
-AO tipo de metadados é identificado a partir da primeira letra do seu primeiro nome:
+O tipo de metadados é identificado a partir da primeira letra do seu primeiro nome:
 |Observe o número que segue cada letra|
 |-|
 |A1B2C3D4E5F6G1H2I3J4K5L6M1N2O3P4Q5R6S1T2U3V4W5X6Y1Z2|
 
 Alguns exemplos:
 - para o nome é **Bia**, o número que segue a letra **B** é 2, então o tipo de metadado é "**2. _Technical metadata_**".
-- para o nome é **Pedro**, o número que segue a letra **P** é 4, o último algarismo é 6, então o tipo de metadado é "**4. _Rights metadata_**".
+- para o nome é **Pedro**, o número que segue a letra **P** é 4, então o tipo de metadado é "**4. _Rights metadata_**".
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder:  
 1. Pesquise sobre o tipo de metadados (escolhido conforme o seu primeiro nome). Então escreva um ou dois parágrafos sobre o mesmo, apresentando exemplos. Apresente também as fontes que você usou na sua pesquisa.
