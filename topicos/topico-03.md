@@ -50,6 +50,7 @@ Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se
 
 A escolha do tipo de metadados depende da primeira letra do seu primeiro nome:
 |ABCDEFGHIJKLMNOPQRSTUVWXYZ|
+|-|
 |12345612345612345612345612|
 -
 - determinar a posição **N** da primeira letra do seu primeiro nome, dentre as 26 letras no alfabeto (ABCDEFGHIJKLMNOPQRSTUVWXYZ);
