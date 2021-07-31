@@ -36,14 +36,19 @@ No contexto da área de Banco de Dados, a literatura usa vários termos para se 
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf). Leia e releia o texto.
-Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadado, conforme a seguir (numerado de 1 a 6)
-1. Descriptive metadata
-1. Technical metadata
-1. Preservation metadata
-1. Rights metadata
-1. Structural metadata
-1. Markup languages
+Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf). Leia e releia o texto.<br>
+Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadado, conforme a seguir (numerado de 1 a 6):
+1. _Descriptive metadata_
+1. _Technical metadata_
+1. _Preservation metadata_
+1. _Rights metadata_
+1. _Structural metadata_
+1. _Markup languages_
+
+**A presente atividade se refere a pesquisar e escrever sobre um dos tipos de metadados**, dentre os elencados acima.
+
+O tipo de metadados, que você irá escrever sobre, depende da primeira letra do seu primeiro nome (conforme o último algarismo da posição dentre as 26 letras no alfabeto: ABCDEFGHIJKLMNOPQRSTUVWXYZ):
+- para o nome é '**P**línio', a letra **P** está na posição 16, o último algarismo é 6, então o tipo de metadado é "**6. _Markup languages_**".
 
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder:  
