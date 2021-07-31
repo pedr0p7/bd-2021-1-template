@@ -37,29 +37,23 @@ No contexto da área de Banco de Dados, a literatura usa vários termos para se 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Considere o conteúdo do texto [Types of Metadata](../media/types-of-metadata.pdf). Leia e releia o texto.<br>
-Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (identificados de 0 a 5):
-
-0. _Descriptive metadata_
+Observe que a tabela na segunda página do texto possui 06 linhas, cada linha se refere a um tipo de metadados, conforme a seguir (identificados de 1 a 6):
+1. _Descriptive metadata_
 1. _Technical metadata_
-2. _Preservation metadata_
-3. _Rights metadata_
-4. _Structural metadata_
-5. _Markup languages_
+1. _Preservation metadata_
+1. _Rights metadata_
+1. _Structural metadata_
+1. _Markup languages_
 
 **A presente atividade se refere a pesquisar e escrever sobre um dos tipos de metadados**, dentre os elencados acima.
 
 A escolha do tipo de metadados depende da primeira letra do seu primeiro nome:
-
-
+|Observe o número que segue cada letra|
+|-|
 |A1B2C3D4E5F6G1H2I3J4K5L6M1N2O3P4Q5R6S1T2U3V4W5X6Y1Z2|
 
-
--
-- determinar a posição **N** da primeira letra do seu primeiro nome, dentre as 26 letras no alfabeto (ABCDEFGHIJKLMNOPQRSTUVWXYZ);
-- O metadado **M**, que você escrever sobre, é identificado pelo resto da divisão de **N** por 06 (seis).
-
 Alguns exemplos:
-- para o nome é **Bia**, a letra **B** está na posição 02, o último algarismo é 2, então o tipo de metadado é "**2. _Technical metadata_**".
+- para o nome é **Bia**, o número que a letra **B** é 2, então o tipo de metadado é "**2. _Technical metadata_**".
 - para o nome é **Pedro**, a letra **P** está na posição 16, o último algarismo é 6, então o tipo de metadado é "**6. _Markup languages_**".
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 03", para responder:  
