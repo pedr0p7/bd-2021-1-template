@@ -1,4 +1,4 @@
-## [Tópico T05] - Modelo de dados
+## [Tópico T05] - Modelo de Dados
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Um objetivo importante de um sistema de banco de dados é fornecer aos usuários uma percepção abstrata dos dados - o sistema oculta certos detalhes de como os dados são armazenados e mantidos. Nesse sentido, estruturas de dados complexas podem ser ***escondidas*** pelo emprego de vários níveis de abstração, o que simplifica as interações dos usuários com o sistema.
