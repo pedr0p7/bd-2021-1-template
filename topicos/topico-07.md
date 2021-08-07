@@ -50,22 +50,6 @@ Para o Modelo Relacional (MR), um *checklist* com a maioria dos conceitos deste 
 
 Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados no Capítulo 3 do livro sugerido[1]. 
 
-### Reflexões sobre Modelo Entidade Relacionamento ...
-
-Vamos retornar e reflexionar sobre o Modelo Entidade Relacionamento.<br>
-Seja o diagrama abaixo, referente ao esquema conceitual a um _banco de dados de Vendas Online_:
-
-<img src="../media/fig-der-vendas-1.jpg" width="300">
-
-1. Reflexões 01 - responda as questões abaixo:
-   - Qual a identificação (atributo chave) do tipo de entidade ITEM DE VENDA?
-   - Um mesmo produto pode ser vendido várias vezes ao mesmo cliente?
-   - Um item de venda se refere a um produto?
-1. Reflexões 02 - quais as alterações no esquema para atender as seguintes consultas:
-   - Qual o valor vendido a cada cliente?
-   - Qual o produto teve maior quantidade de itens vendidos em um dado período?
-   - Qual o preço unitário de venda de cada produto na data em que o mesmo foi vendido?
-
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima, alguns deles são apresentados abaixo:
@@ -80,7 +64,7 @@ Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima
 **(h)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
 **(i)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bxx-bd-2020-2, com o título "Tópico 15", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 15", para responder:  
 1. Observe os itens acima de (a) até (i).<br>
 Para cada dos itens acima, identifique o conceito correspondente no *checklist*.<br>
 Responda segundo o modelo:<br>
@@ -103,7 +87,7 @@ RESPOSTA:<br>
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bxx-bd-2020-2, cujo título é "Tópico 15", para indicar suas reflexões iniciais sobre conceitos do *modelo relacional*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 07", para indicar suas reflexões iniciais sobre conceitos do *modelo relacional*.
 
 ### Bibliografia
 
