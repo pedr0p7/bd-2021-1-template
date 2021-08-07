@@ -111,7 +111,7 @@ Resposta: **PRODUTO(Categ) REFERENCIA CATEGORIA(CodCateg)**<br>
 Obs.: observe a notação para responder a pergunta:<br>
 &#8718; _RELAÇÃO(FK) REFERENCIA RELAÇÃO(PK)_
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/b0d-2021-1-bxx, com o título "Tópico 08", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 08", para responder:  
 1. Sobre a figura (acima) referente à [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), para um **esquema lógico** segundo o Modelo Relacional (MR):<br>
 Pergunta: **Quais as chaves estrangeiras no esquema lógico do BD Empresa?**<br>
 Resposta: <responda segundo a notação _RELAÇÃO(FK) REFERENCIA RELAÇÃO(PK)_, para cada chave estrangeira>
