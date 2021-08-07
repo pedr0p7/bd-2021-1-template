@@ -1,15 +1,13 @@
 ## [Tópico T07] - Modelo Relacional (MR) - Primeiros passos e _Checklist_
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
-**Modelos de dados** promovem a percepção abstrata em níveis para o banco de dados. Nesse sentido, cada modelo de dados se refere a um nível de abstração próprio, para guiar a criação e a evolução de um esquema de banco de dados. A figura a seguir apresenta níveis de abstração para os vários esquemas de um mesmo banco de dados.
+Sobre **Modelo de dados**: _(i)_ é empregado no projeto de banco de dados (projeto conceitual, projeto lógico, etc.) para produzir um esquema do banco de dados (esquema conceitual, esquema lógico, etc.); e _(ii)_ promove a percepção abstrata _da estrutura, da composição de conteúdo e das restrições de integridade_ em algum nível de abstração. Nesse sentido, cada modelo de dados se refere a um nível próprio de abstração, para guiar a criação e a evolução de um esquema de banco de dados. 
+
+A figura a seguir apresenta níveis de abstração para os vários esquemas de um mesmo banco de dados.
 
 <img src="../media/fig-projeto.jpg" width="320">
 
-O **Modelo Entidade Relacionamento (MER)** é comumente aplicado na etapa *projeto conceitual do banco de dados*. O projeto conceitual lida com a *especificação conceitual do banco de dados* (**esquema conceitual**), que é uma representação em uma abstração de alto-nível nível, cujo entendimento é mais próximo de usuários não especializados.
-
-Vimos que um **modelo de dados** é uma ***coleção de conceitos*** que podem ser usados para descrever a estrutura de um banco de dados, relacionamentos de dados, semântica de dados e restrições de consistência.
-
-O **Modelo Relacional (MR)** é comumente aplicado na etapa **projeto lógico** do banco de dados. O projeto lógico lida com a **especificação lógica** do banco de dados (**esquema lógico**), que é uma representação em uma abstração de alto-nível nível, embora o esquema conceitual seja em nível mais alto do que o esquema lógico.
+O **Modelo Relacional (MR)** é comumente aplicado na etapa **projeto lógico** do banco de dados. O projeto lógico lida com a **especificação lógica** do banco de dados (**esquema lógico**), que é uma representação em uma abstração de alto-nível, embora o esquema conceitual seja em nível mais alto do que o esquema lógico.
 
 O modelo relacional representa o banco de dados como uma **coleção de relações**:
 - uma relação se assemelha a uma tabela de valores (mas entre os conceitos _relação_ e _tabela_ há dessemelhanças);
