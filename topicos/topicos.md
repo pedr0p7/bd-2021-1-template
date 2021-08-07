@@ -1,3 +1,5 @@
+
+[Tópico T07](./topico-07.md) - Modelo Relacional (MR) - Primeiros passos e Checklist<br>
 [Tópico T06](./topico-06.md) - Requisitos de Dados<br>
 [Tópico T05](./topico-05.md) - Modelo de Dados<br>
 [Tópico T04](./topico-04.md) - Sistema Gerenciador de Banco de Dados<br>
