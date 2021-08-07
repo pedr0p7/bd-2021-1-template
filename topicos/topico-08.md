@@ -1,4 +1,4 @@
-## [Tópico T16] - Modelo Relacional (MR) - Restrições de Integridade
+## [Tópico T08] - Modelo Relacional (MR) - Restrições de Integridade
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Sejam as duas figuras abaixo, ambas se referem ao **BD Empresa** [1]:
