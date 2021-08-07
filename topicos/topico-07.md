@@ -1,7 +1,7 @@
 ## [Tópico T07] - Modelo Relacional (MR) - Primeiros passos e _Checklist_
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
-O projeto de banco de dados (projeto conceitual, projeto lógico, etc.) emprega modelos de dados para produzir um esquema do banco de dados (esquema conceitual, esquema lógico, etc.). Modelos de dados promovem a percepção abstrata _da estrutura, da composição de conteúdo e das restrições de integridade_ em algum nível de abstração. Nesse sentido, cada modelo de dados se refere a um nível próprio de abstração, para guiar a criação e a evolução de um esquema de banco de dados. 
+O projeto de banco de dados (projeto conceitual, projeto lógico, etc.) emprega modelos de dados para produzir esquemas do banco de dados (esquema conceitual, esquema lógico, etc.). Modelos de dados promovem a percepção abstrata _da estrutura, da composição de conteúdo e das restrições de integridade_ em algum nível de abstração. Nesse sentido, cada modelo de dados se refere a um nível próprio de abstração, para guiar a criação e a evolução de um esquema de banco de dados. 
 
 A figura a seguir apresenta níveis de abstração para os vários esquemas de um mesmo banco de dados.
 
