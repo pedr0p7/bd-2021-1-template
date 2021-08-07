@@ -64,7 +64,7 @@ Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima
 **(h)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
 **(i)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 15", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 07", para responder:  
 1. Observe os itens acima de (a) até (i).<br>
 Para cada dos itens acima, identifique o conceito correspondente no *checklist*.<br>
 Responda segundo o modelo:<br>
