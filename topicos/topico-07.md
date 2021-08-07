@@ -54,15 +54,15 @@ Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é 
 
 Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima, alguns deles são apresentados abaixo:
 
-**(a)**  R(A<sub>1</sub>, A<sub>2</sub>, ...,A<sub>n</sub>)<br>
-**(b)**  Conjunto de n-tuplas: { t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>m</sub> }<br>
-**(c)**  Lista ordenada de n valores: <v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>><br>
-**(d)**  Subconjunto do produto Cartesiano dos domínios: r(R) ⊆ ( dom(A<sub>1</sub>) × dom(A<sub>2</sub>) × ... × dom(A<sub>n</sub>) )<br>
-**(e)**  Número total de distintos valores que um atributo pode ter<br>
-**(f)**  Nenhum valor de chave primária pode ser NULL<br>
-**(g)**  Garante a consistência entre tuplas que se relacionam<br>
-**(h)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
-**(i)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }
+**(a)**  Lista ordenada de n valores: <v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>><br>
+**(b)**  Subconjunto do produto Cartesiano dos domínios: r(R) ⊆ ( dom(A<sub>1</sub>) × dom(A<sub>2</sub>) × ... × dom(A<sub>n</sub>) )<br>
+**(c)**  Número total de distintos valores que um atributo pode ter<br>
+**(d)**  Nenhum valor de chave primária pode ser NULL<br>
+**(e)**  Garante a consistência entre tuplas que se relacionam<br>
+**(f)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
+**(g)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }
+**(h)**  R(A<sub>1</sub>, A<sub>2</sub>, ...,A<sub>n</sub>)<br>
+**(i)**  Conjunto de n-tuplas: { t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>m</sub> }<br>
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 07", para responder:  
 1. Observe os itens acima de (a) até (i).<br>
@@ -75,15 +75,15 @@ Responda segundo o modelo:<br>
 Obs.: evite respostas tais como "(a) 5", pois não serão analisadas pelo professor.
 
 RESPOSTA:<br>
-**(a)**  Esquema de relação<br>
+**(a)**  Tupla ou n-tupla<br>
 **(b)**  Relação<br>
-**(c)**  Tupla ou n-tupla<br>
-**(d)**  Relação<br>
-**(e)**  Cardinalidade de domínio de atributo<br>
-**(f)**  Restrição de integridade de entidade<br>
-**(g)**  Restrição de integridade referencial<br>
-**(h)**  Esquema de banco de dados relacional<br>
-**(i)**  Banco de dados _vs._ Instância de banco de dados
+**(c)**  Cardinalidade de domínio de atributo<br>
+**(d)**  Restrição de integridade de entidade<br>
+**(e)**  Restrição de integridade referencial<br>
+**(f)**  Esquema de banco de dados relacional<br>
+**(g)**  Banco de dados _vs._ Instância de banco de dados
+**(h)**  Esquema de relação<br>
+**(i)**  Relação<br>
 
 ## Artefatos
 
