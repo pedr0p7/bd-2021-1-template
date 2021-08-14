@@ -193,7 +193,7 @@ Noutras palavras:<br>
 
 #### Em relação ao BD Simples, considere o "esquema lógico" (acima) e a "ilustração" (no início do tópico) para executar esta atividade.
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bxx-bd-2020-2, com o título "Tópico 17", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 09", para responder:  
 
 1. Quais as restrições de integridade - _domínio_, _chave_, _integridade de entidade_ e _integridade referencial_ - são violadas em cada uma das seguintes operações?<br>
 **(a)** Excluir a _tupla_ **<"papel","Papelaria e escritório">** em CATEGORIA.<br>
@@ -226,5 +226,5 @@ RESPOSTA:<br>
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bxx-bd-2020-2, cujo título é "Tópico 17", para indicar suas reflexões iniciais sobre *restrições de integridade no modelo relacional*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 09", para indicar suas reflexões iniciais sobre *restrições de integridade no modelo relacional*.
 
