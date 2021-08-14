@@ -178,7 +178,8 @@ O presente tópico introduziu três operações básicas da álgebra relacional,
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Um banco de dados simples (**BD Simples**) possui o seguinte esquema conceitual:
+Um banco de dados simples (**BD Simples**) possui o seguinte esquema conceitual:<br>
+_<<apenas para ilustrar, pois ainda não estudamos o modelo entidade-relacionamento, que é usado para elaborar o esquema conceitual>>_
 
 <img src="../media/fig-der-simples-1.jpg" width="350">
 
