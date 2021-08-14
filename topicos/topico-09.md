@@ -196,13 +196,13 @@ Noutras palavras:<br>
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 09", para responder:  
 
 1. Quais as restrições de integridade - _domínio_, _chave_, _integridade de entidade_ e _integridade referencial_ - são violadas em cada uma das seguintes operações?<br>
-**(a)** Excluir a _tupla_ **<"papel","Papelaria e escritório">** em CATEGORIA.<br>
-**(b)** Alterar a _tupla_ **<"papel","Papelaria e escritório">** para **<"papelaria","Papelaria e Escritório">** em CATEGORIA.<br>
-**(c)** Excluir a _tupla_ **<1111,"Bola",20.00,"esporte">** em PRODUTO.<br>
-**(d)** Incluir a _tupla_ **<NULL,"Boné",12.00,"vestuário">** em PRODUTO.<br>
-**(e)** Incluir a _tupla_ **<1212,"Borracha",2.10,"papel">** em PRODUTO.<br>
-**(f)** Incluir a _tupla_ **<1212,2.10,"Borracha","papel">** em PRODUTO.<br>
-**(g)** Alterar a _tupla_ **<"papel","Papelaria e escritório">** para **<"papeis","Papelaria e Outros">** em CATEGORIA.<br>
+**(a)** Alterar a _tupla_ **<"papel","Papelaria e escritório">** para **<"papeis","Papelaria e Outros">** em CATEGORIA.<br>
+**(b)** Excluir a _tupla_ **<"papel","Papelaria e escritório">** em CATEGORIA.<br>
+**(c)** Alterar a _tupla_ **<"papel","Papelaria e escritório">** para **<"papelaria","Papelaria e Escritório">** em CATEGORIA.<br>
+**(d)** Excluir a _tupla_ **<1111,"Bola",20.00,"esporte">** em PRODUTO.<br>
+**(e)** Incluir a _tupla_ **<NULL,"Boné",12.00,"vestuário">** em PRODUTO.<br>
+**(f)** Incluir a _tupla_ **<1212,"Borracha",2.10,"papel">** em PRODUTO.<br>
+**(g)** Incluir a _tupla_ **<1212,2.10,"Borracha","papel">** em PRODUTO.<br>
 IMPORTANTE:<br>
 &#8718; Para analisar cada operação, considere o banco de original conforme a ilustração. Por exemplo, para analisar a operação em (d), desconsidere posíveis modificações no banco de dados pelas operações em (a), (b) e (c).<br>
 &#8718; Ao responder, apresente o somatório dos números que identificam cada restrição violada pela operação:<br>
@@ -218,11 +218,11 @@ IMPORTANTE:<br>
 RESPOSTA:<br>
 (a) **08** : (08) Restrição de integridade referencial<br>
 (b) **08** : (08) Restrição de integridade referencial<br>
-(c) **00**<br>
-(d) **12** : (04) Restrição de integridade de entidade , (08) Restrição de integridade referencial<br>
-(e) **02** : (02) Restrição de chave<br>
-(f) **03** : (01) Restrição de domínio , (02) Restrição de chave<br>
-(g) **08** : (08) Restrição de integridade referencial<br>
+(c) **08** : (08) Restrição de integridade referencial<br>
+(d) **00**<br>
+(e) **12** : (04) Restrição de integridade de entidade , (08) Restrição de integridade referencial<br>
+(f) **02** : (02) Restrição de chave<br>
+(g) **03** : (01) Restrição de domínio , (02) Restrição de chave<br>
 
 ## Artefatos
 
