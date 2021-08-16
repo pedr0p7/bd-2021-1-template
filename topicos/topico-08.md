@@ -55,7 +55,7 @@ Há subconjuntos de atributos de **R** - pelo menos um subconjunto - tal que dua
 
 >Contudo, **superchaves** podem ter atributos supérfluos com respeito à **restrição de exclusividade**.
 
-Uma **chave em R** é uma **superchave SK<sub>i</sub>** se não tiver atributos supérfluos com respeito à **restrição de exclusividade**:
+Uma **superchave SK<sub>i</sub> em R** é uma **chave em R** se não tiver atributos supérfluos com respeito à **restrição de exclusividade**:
   - por exemplo, suponha que no esquema de MUNICIPIO há superchaves {Cidade, Estado, Área} e {Cidade, Estado}:
     - contudo, somente {Cidade, Estado} é uma chave em MUNICIPIO.
 
