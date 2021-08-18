@@ -16,7 +16,7 @@ Sobre as **Operações da Álgebra Relacional**:
 - Operações podem ser (usualmente são) aninhadas, tal que o resultado de uma operação é a entrada de outra operação.
 - Em termos formais, há dois grupos de operações:
   - baseada na teoria matemática de conjuntos, tais como UNIÃO, INTERSEÇÃO, DIFERENÇA e PRODUTO CARTESIANO;
-  - criada especificamente para bancos de dados relacionais, tais como  SELEÇÃO, PROJETÇÃO e JUNÇÃO, entre outras.
+  - criada especificamente para bancos de dados relacionais, tais como  SELEÇÃO, PROJEÇÃO e JUNÇÃO, entre outras.
 
 ### Ilustração do BD Simples
 
