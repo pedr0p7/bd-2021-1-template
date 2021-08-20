@@ -81,9 +81,9 @@ RESPOSTA:<br>
 **(d)**  Restrição de integridade de entidade<br>
 **(e)**  Restrição de integridade referencial<br>
 **(f)**  Esquema de banco de dados relacional<br>
-**(g)**  Banco de dados _vs._ Instância de banco de dados
+**(g)**  Banco de dados _vs._ Instância de banco de dados<br>
 **(h)**  Esquema de relação<br>
-**(i)**  Relação<br>
+**(i)**  Relação
 
 ## Artefatos
 
