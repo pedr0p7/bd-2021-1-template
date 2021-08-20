@@ -205,7 +205,7 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
 **(f)** Incluir a _tupla_ **<1212,"Borracha",2.10,"papel">** em PRODUTO.<br>
 **(g)** Incluir a _tupla_ **<1212,2.10,"Borracha","papel">** em PRODUTO.<br>
 IMPORTANTE:<br>
-&#8718; Para analisar cada operação, considere o banco de original conforme a ilustração. Por exemplo, para analisar a operação em (d), desconsidere posíveis modificações no banco de dados pelas operações em (a), (b) e (c).<br>
+&#8718; Para analisar cada operação, considere o banco de original conforme a ilustração. Por exemplo, para analisar a operação em (d), desconsidere possíveis modificações no banco de dados pelas operações em (a), (b) e (c).<br>
 &#8718; Ao responder, apresente o somatório dos números que identificam cada restrição violada pela operação:<br>
 (01) Restrição de domínio<br>
 (02) Restrição de chave<br>
