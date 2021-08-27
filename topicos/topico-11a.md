@@ -21,7 +21,7 @@ Para esclarecer a distinção entre JUNÇÃO e UNIÃO (também INTERSEÇÃO e DI
 **Para os lanches servidos durante o dia, qual o nome da padaria e o lanche servido?**
 
 &nbsp;&nbsp;Para atender à consulta, é necessário fazer a JUNÇÃO entre PADARIA e CARDAPIO_DIA.<br>
-&nbsp;&nbsp;Cada _tupla_ do resultado da consulta terá dados de ambas relações PADARIA e CARDAPIO_DIA.
+&nbsp;&nbsp;Cada _tupla_ do resultado da consulta terá dados de ambas ad relações: PADARIA e CARDAPIO_DIA.
 
 ∎ **AUX1 ← PADARIA ⋈ <sub>CodPadaria=CodP</sub> CARDAPIO_DIA**<br>
 
