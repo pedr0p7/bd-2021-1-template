@@ -12,7 +12,7 @@ Sobre ambas as operações:
   - uma _tupla_ de **R**; OU
   - uma _tupla_ de **S**.
 
-Para esclarecer a distinção entre JUNÇÃO e UNIÃO (também INTERSEÇÃO e DIFERENÇA), considere a ilustração abaixo, que se refere ao banco de dados de uma aplicação focada no fornecimento de lanches (**BD Lanches**). As relações CARDAPIO_DIA e CARDAPIO_NOITE se referem aos lanches que são servidos nos durante o dia e durante a noite, respectivamente.
+Para esclarecer a distinção entre JUNÇÃO e UNIÃO (também INTERSEÇÃO e DIFERENÇA), considere a ilustração abaixo, que se refere ao banco de dados de uma aplicação focada no fornecimento de lanches (**BD Lanches**).<br> As relações CARDAPIO_DIA e CARDAPIO_NOITE se referem aos lanches que são servidos nos durante o dia e durante a noite, respectivamente.
 
 <img src="../media/fig-bd-lanches.jpg" width="450">
 
