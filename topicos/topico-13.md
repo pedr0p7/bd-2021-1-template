@@ -58,32 +58,6 @@ Abaixo são mostrados exemplos para as três variações da operação JUNÇÃO 
 
 <img src="../media/fig-algebra-juncao-externa.jpg" width="500">
 
-### Reflexões sobre Modelo Entidade Relacionamento ...
-
-Vamos retornar e reflexionar sobre o Modelo Entidade Relacionamento.<br>
-Sobre o **BD Venda Online**:
-- os requisitos de dados e o esquema conceitual inicial (DER) foram introduzidos no [Tópico 15](./topico-15.md);
-- o esquema conceitual foi evoluído no [Tópico 18](./topico-18.md), conforme a figura a seguir.
-
-<img src="../media/fig-der-vendas-2.jpg" width="350">
-
-O **Tópico 18** introduziu outras demandas informacionais, conforme abaixo.
-
-**Reflexões 04** - Quais as alterações no esquema para atender as seguintes consultas:
-- Quais as vendas integralmente pagas, sabendo que qualquer venda pode ser paga a prazo (em parcelas)?
-- Quais as parcelas pagas de uma venda?
-- Quais as parcelas não pagas de uma venda?
-
-As demandas informacionais introduzidas em **Reflexões 04** no **Tópico 18** (acima) foram solucionadas pelo DER abaixo.
-
-<img src="../media/fig-der-vendas-3.jpg" width="450">
-
-Favor apreciar novas reflexões para o **BD Venda Online**:<br>
-**Reflexões 05** - Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
-- Quais o valor total das parcelas pagas e o valor total das parcelas não pagas de uma venda?
-- Quais as parcelas pagas em atraso?
-- Quais os juros cobrados nas parcelas pagas em atraso?
-
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Seja o esquema relacional simplificado abaixo:
