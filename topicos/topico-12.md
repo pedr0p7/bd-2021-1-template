@@ -1,4 +1,4 @@
-## [Tópico T20] - Álgebra Relacional - Divisão, Função Agregada, Agrupamento
+## [Tópico T12] - Álgebra Relacional - Divisão, Função Agregada, Agrupamento
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Para ilustrar as operações da Álgebra Relacional, considere os esquemas (conceitual e lógico) do BD Empresa.
