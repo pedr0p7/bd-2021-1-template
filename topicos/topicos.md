@@ -1,3 +1,5 @@
+[Tópico T11](./topico-11.md) - Álgebra Relacional - União, Interseção, Diferença<br>
+[Tópico T10](./topico-10.md) - Álgebra Relacional - Produto Cartesiano e Junção<br>
 [Tópico T09](./topico-09.md) - Álgebra Relacional - Fundamentos e Primeiras operações<br>
 [Tópico T08](./topico-08.md) - Modelo Relacional (MR) - Restrições de Integridade<br>
 [Tópico T07](./topico-07.md) - Modelo Relacional (MR) - Primeiros passos e Checklist<br>
