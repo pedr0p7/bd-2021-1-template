@@ -69,4 +69,7 @@ Para esclarecer a distinção entre JUNÇÃO e UNIÃO (também INTERSEÇÃO e DI
 |-|
 |PastelC|
 
+> Em resumo, ...
+>> Qual a conclusão que você poderia escrever sobre o conteúdo acima ?
+
 ## Não há atividade para este tópico, excepcionalmente.
