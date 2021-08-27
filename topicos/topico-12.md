@@ -97,4 +97,4 @@ RESPOSTAS
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 20", para praticar operações da *álgebra relacional*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 12", para praticar operações da *álgebra relacional*.
