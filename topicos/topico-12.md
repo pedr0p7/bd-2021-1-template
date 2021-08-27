@@ -77,7 +77,7 @@ Qual o nome dos funcionários que possuem dois ou mais dependentes?
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bxx-bd-2020-2, com o título "Tópico 20", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 12", para responder:  
 
 Escreva em álgebra relacional as seguintes consultas ao BD Empresa: 
 1. Qual o nome dos departamentos que possuem três ou mais empregados que trabalham para o departamento?
@@ -97,4 +97,4 @@ RESPOSTAS
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bxx-bd-2020-2, cujo título é "Tópico 20", para praticar operações da *álgebra relacional*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 20", para praticar operações da *álgebra relacional*.
