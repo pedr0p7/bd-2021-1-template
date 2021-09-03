@@ -45,6 +45,32 @@ No exemplo "_Qual o nome dos empregados e, para aqueles que são gerentes, o nom
 |André|Pereira|NULL|
 |Jorge|Brito|Matriz|
 
+#### JUNÇÃO EXTERNA Exemplo 2:
+
+No exemplo "_Qual o nome dos empregados e, para aqueles que possuem dependentes, o nome dos seus dependentes?"_:
+- A consulta é uma JUNÇÃO EXTERNA À ESQUERDA;
+- A expressão é:
+  - **π <sub>Pnome, Unome, Nome_dependente</sub> (FUNCIONARIO ⟕ <sub>Cpf = Fcpf</sub> DEPENDENTE)** ;
+  - observe o uso do símbolo ⟕ (em vez de ⨝).
+- O resultado da consulta é exibido abaixo.
+
+|Pnome|Unome|Nome_dependente|
+|-|-|-|
+|João|Silva|Michael|
+|João|Silva|Alicia|
+|João|Silva|Elizabeth|
+|Fernando|Wong|Alicia|
+|Fernando|Wong|Tiago|
+|Fernando|Wong|Janaina|
+|Alice|Zelaya|NULL|
+|Jennifer|Souza|Antonio|
+|Ronaldo|Lima|NULL|
+|Joice|Leite|NULL|
+|André|Pereira|NULL|
+|Jorge|Brito|NULL|
+
+#### JUNÇÃO EXTERNA Exemplo 3:
+
 Na JUNÇÃO EXTERNA entre R e S, a relação resultante possui:
 - as _tuplas_ do resultado da JUNÇÃO INTERNA; e
 - as _tuplas_ de **R e/ou S**, quando o **predicado de junção** não é avaliado como verdadeiro.
