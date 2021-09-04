@@ -104,7 +104,7 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
    - "Sim, eu consigo criar o **BD Empresa** e consultar o conteúdo das relações", ou
    - "Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
 
-P.S.: Alguém poderia ser voluntário para criar uma nova versão do arquivo [empresa.sql](../data/empresa.sql), tal que as relações tenham o conteúdo da [ilustração do BD Empresa](../media/fig-mr-2.jpg)?
+P.S.: O [conteúdo do] banco de dados criado - BD Empresa - é o mesmo conteúdo da [ilustração do BD Empresa](../media/fig-mr-2.jpg)?
 
 ## Artefatos
 
