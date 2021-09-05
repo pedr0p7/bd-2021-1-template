@@ -129,13 +129,6 @@ Retornando aos 'significados' do **Valor Nulo**:
 |-|
 |SELECT FUNC.Pnome, FUNC.Unome, SUPER.Pnome, SUPER.Unome<br>FROM FUNCIONARIO AS FUNC LEFT OUTER JOIN FUNCIONARIO AS SUPER<br>&nbsp;&nbsp;&nbsp;&nbsp;ON FUNC.Cpf_supervisor = SUPER.Cpf|
 
-### Exemplo 12:
-#### Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver dependentes, liste também o nome dos seus dependentes.
-
-|SQL|
-|-|
-|???|
-
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 17", para responder: 
@@ -154,19 +147,13 @@ A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e 
 &nbsp;&nbsp;(e) dois, dois e um.<br>
 RESPOSTA (?)
 
-2. Considere as relações abaixo:<br>
-CREATE TABLE Empregado (ecod int PRIMARY KEY, nome varchar(32), salario number(7,2), dcod int FOREIGN KEY REFERENCES Departamento (dcod));<br>
-CREATE TABLE Departamento (dcod int PRIMARY KEY, dnome varchar(12), chefe int FOREIGN KEY REFERENCES Empregado (ecod));<br>
-Sejam as consultas (C1, C2 e C3):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT nome, salario FROM Empregado E, Departamento D WHERE E.dcod = D.dcod AND E.ecod = D.chefe<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT nome, salario FROM Empregado E JOIN Departamento D ON E.dcod=D.dcod WHERE E.ecod = D.chefe<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C3) SELECT nome, salario FROM E.ecod = D.chefe<br>
-Com relação às consultas, é correta afirmar:<br>
-&nbsp;&nbsp;(a) As consultas C1 e C2 são equivalentes e retornam o nome e o salário dos chefes dos departamentos.<br>
-&nbsp;&nbsp;(b) As consultas C1, C2 e C3 são equivalentes e retornam o nome e o salário dos chefes dos departamentos.<br>
-&nbsp;&nbsp;(c) Apenas a consulta C1 retorna o nome e o salário dos chefes dos departamentos.<br>
-&nbsp;&nbsp;(d) Apenas a consulta C2 retorna o nome e o salário dos chefes dos departamentos.<br>
-&nbsp;&nbsp;(e) Apenas a consulta C3 retorna o nome e o salário dos chefes dos departamentos.<br>
+2. A partir da [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), escreva a seguinte consulta em SQL, por JUNÇÃO EXTERNA:<br>
+_Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver dependentes, liste também o nome dos seus dependentes_.
+
+|SQL|
+|-|
+|???|
+  
 RESPOSTA (a)
 
 ## Artefatos
