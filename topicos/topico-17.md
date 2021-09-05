@@ -123,11 +123,11 @@ Retornando aos 'significados' do **Valor Nulo**:
 <img src="../media/fig-algebra-juncao-externa.jpg" width="450">
 
 ### Exemplo 11:
-#### Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver supervisor direto, liste também o primeiro e o último nomes do supervisor.
+#### Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver supervisor direto, liste também o primeiro nome e o último nome do supervisor.
 
 |SQL|
 |-|
-|SELECT FUNC.Pnome, FUNC.Pnome, SUPER.Pnome, SUPER.Unome<br>FROM FUNCIONARIO AS FUNC LEFT OUTER JOIN FUNCIONARIO AS SUPER<br>&nbsp;&nbsp;&nbsp;&nbsp;ON FUNC.Cpf_supervisor = SUPER.Cpf|
+|SELECT FUNC.Pnome, FUNC.Unome, SUPER.Pnome, SUPER.Unome<br>FROM FUNCIONARIO AS FUNC LEFT OUTER JOIN FUNCIONARIO AS SUPER<br>&nbsp;&nbsp;&nbsp;&nbsp;ON FUNC.Cpf_supervisor = SUPER.Cpf|
 
 ### Exemplo 12:
 #### Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver dependentes, liste também o nome dos seus dependentes.
