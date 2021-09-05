@@ -118,7 +118,7 @@ O exemplo abaixo se refere a algumas das funções **específicas** do Sistema *
 |-|-|
 |DEPTO_P ← σ <sub>Dnome='Pesquisa'</sub> (DEPARTAMENTO)<br>AUX ← FUNCIONARIO ⨝ <sub>Dnr=Dnumero</sub> DEPTO_P<br>π <sub>Pnome, Unome, Salario</sub> (AUX)|SELECT Pnome, Unome, Salario <br>FROM FUNCIONARIO, DEPARTAMENTO <br>WHERE Dnr=Dnumero AND Dnome='Pesquisa'<br><br>SELECT Pnome, Unome, Salario <br>FROM FUNCIONARIO JOIN DEPARTAMENTO <br>&nbsp;&nbsp;&nbsp;&nbsp;ON Dnr=Dnumero <br>WHERE Dnome='Pesquisa'|
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+### Pratique ...
 
 Veja o conteúdo do arquivo [empresa.sql](../data/empresa.sql):
 - O conteúdo do arquivo possui comandos para a **definição** (criação das estruturas de dados) e **construção** (carga inicial) do **BD Empresa**.
@@ -137,6 +137,8 @@ Vamos executar o conteúdo do arquivo [empresa.sql](../data/empresa.sql), tal qu
 
 Pronto, o **BD Empresa** foi criado e está pronto para ser manipulado (usado).<br>
 **Execute cada consulta apresentada nos exemplos acima**
+
+## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 16", para responder:  
 
