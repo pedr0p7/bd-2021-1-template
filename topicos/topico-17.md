@@ -141,9 +141,9 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
 &nbsp;&nbsp;&nbsp;&nbsp;(C3a) SELECT * FROM R WHERE (at2=at2) OR (NOT at3=at3) (dois)<br>
 A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e (C3), respectivamente, é:<br>
 &nbsp;&nbsp;(a) zero, um e dois.<br>
-&nbsp;&nbsp;(b) um, dois e um.<br> BIA C1a, C2, C3
-&nbsp;&nbsp;(c) um, dois, dois.<br> BGI C1a, C2, C3a
-&nbsp;&nbsp;(d) zero, dois e dois.<br> BCC C1, C2, C3a 
+&nbsp;&nbsp;(b) um, dois e um. BIA C1a, C2, C3<br>
+&nbsp;&nbsp;(c) um, dois, dois. BGI C1a, C2, C3a<br>
+&nbsp;&nbsp;(d) zero, dois e dois. BCC C1, C2, C3a<br>
 &nbsp;&nbsp;(e) dois, dois e um.<br>
 RESPOSTA (?)
 
