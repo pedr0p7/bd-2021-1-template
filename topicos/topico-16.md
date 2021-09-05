@@ -143,13 +143,13 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
 Baseado na [ilustração do BD Empresa](../media/fig-mr-2.jpg), escreva em SQL a consulta:<br>
 Para cada dependente, apresente o nome do dependente e o primeiro e último nomes do funcionário responsável pelo dependente, mas restrito aos dependentes em que:
 - as duas primeiras letras do nome do dependente são as mesmas do seu primeiro nome (se refere a você, que é discente da disciplina), ou
-- a penúltima letra do nome do dependente é a mesma do seu primeiro nome (se refere a você, que é discente da disciplina).
+- as duas últimas letras do nome do dependente são as mesmas do seu primeiro nome (se refere a você, que é discente da disciplina).
 
 RESPOSTA<br>
 SELECT Pnome, Unome, Nome_dependente<br>
 FROM FUNCIONARIO JOIN DEPENDENTE<br>
 ON Fcpf = Cpf<br>
-WHERE Nome_dependente LIKE "PL*"<br> OR Nome_dependente LIKE "\*I_"
+WHERE Nome_dependente LIKE "PL*" OR Nome_dependente LIKE "*IO"
 
 ## Artefatos
 
