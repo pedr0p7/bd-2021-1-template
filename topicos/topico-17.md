@@ -141,16 +141,18 @@ Retornando aos 'significados' do **Valor Nulo**:
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 17", para responder: 
 
 1. Em consultas escritas em SQL, quando há pelo menos um NULL no predicado da cláusula WHERE, o resultado da avaliação é "desconhecido" (exceto quando são explicitamente empregados IS NULL ou IS NOT NULL); por exemplo, o resultado da avaliação de **(3 + NULL > 7)** é "desconhecido". Portanto, "verdadeiro", "falso" e "desconhecido" são os resultados possíveis na avaliação de predicados da cláusula WHERE. A regra geral é que são selecionadas apenas as combinações de _tuplas_ em que o predicado é avaliado como “verdadeiro”. Seja a relação R que possui quatro tuplas – (12, 15, 5100), (13, NULL, 3500), (14, NULL, NULL) e (15, 12, NULL) – em que o primeiro, o segundo e o terceiro valores em cada _tupla_ referem-se aos atributos **at1**, **at2** e **at3**, respectivamente. Os comandos a seguir representam consultas sobre R:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at1>=12) AND (at2>14)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (at2>12) OR (at3>3000)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C3) SELECT * FROM R WHERE (NOT (at1<at2))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at2<12) OR (at3<3000)<br> (zero)
+&nbsp;&nbsp;&nbsp;&nbsp;(C1a) SELECT * FROM R WHERE (at2>12) AND (at3>3000)<br> (um)
+&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (at2>12) OR NOT (at2>12)<br> (dois)
+&nbsp;&nbsp;&nbsp;&nbsp;(C3) SELECT * FROM R WHERE (NOT at2<at2) AND (at3>at2)<br> (um)
+&nbsp;&nbsp;&nbsp;&nbsp;(C3a) SELECT * FROM R WHERE (at2=at2) OR (NOT at3=at3)<br> (dois)
 A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e (C3), respectivamente, é:<br>
-&nbsp;&nbsp;(a) dois, um e dois.<br>
-&nbsp;&nbsp;(b) dois, dois e um.<br>
-&nbsp;&nbsp;(c) dois, dois, dois.<br>
-&nbsp;&nbsp;(d) um, um e dois.<br>
-&nbsp;&nbsp;(e) um, dois e um.<br>
-RESPOSTA (e)
+&nbsp;&nbsp;(a) zero, um e dois.<br>
+&nbsp;&nbsp;(b) um, dois e um.<br> BIA C1a, C2, C3
+&nbsp;&nbsp;(c) um, dois, dois.<br> BGI C1a, C2, C3a
+&nbsp;&nbsp;(d) zero, dois e dois.<br> BCC C1, C2, C3a 
+&nbsp;&nbsp;(e) dois, dois e um.<br>
+RESPOSTA (?)
 
 2. Considere as relações abaixo:<br>
 CREATE TABLE Empregado (ecod int PRIMARY KEY, nome varchar(32), salario number(7,2), dcod int FOREIGN KEY REFERENCES Departamento (dcod));<br>
@@ -160,12 +162,12 @@ Sejam as consultas (C1, C2 e C3):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT nome, salario FROM Empregado E JOIN Departamento D ON E.dcod=D.dcod WHERE E.ecod = D.chefe<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(C3) SELECT nome, salario FROM E.ecod = D.chefe<br>
 Com relação às consultas, é correta afirmar:<br>
-&nbsp;&nbsp;(a) As consultas C1, C2 e C3 são equivalentes e retornam o nome e o salário dos chefes dos departamentos.<br>
-&nbsp;&nbsp;(b) As consultas C1 e C2 são equivalentes e retornam o nome e o salário dos chefes dos departamentos.<br>
+&nbsp;&nbsp;(a) As consultas C1 e C2 são equivalentes e retornam o nome e o salário dos chefes dos departamentos.<br>
+&nbsp;&nbsp;(b) As consultas C1, C2 e C3 são equivalentes e retornam o nome e o salário dos chefes dos departamentos.<br>
 &nbsp;&nbsp;(c) Apenas a consulta C1 retorna o nome e o salário dos chefes dos departamentos.<br>
 &nbsp;&nbsp;(d) Apenas a consulta C2 retorna o nome e o salário dos chefes dos departamentos.<br>
 &nbsp;&nbsp;(e) Apenas a consulta C3 retorna o nome e o salário dos chefes dos departamentos.<br>
-RESPOSTA (b)
+RESPOSTA (a)
 
 ## Artefatos
 
