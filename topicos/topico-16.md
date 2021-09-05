@@ -145,6 +145,12 @@ Para cada dependente, apresente o nome do dependente e o primeiro e último nome
 - as duas primeiras letras do nome do dependente são as mesmas do seu primeiro nome (se refere a você, que é discente da disciplina), ou
 - a penúltima letra do nome do dependente é a mesma do seu primeiro nome (se refere a você, que é discente da disciplina).
 
+RESPOSTA<br>
+SELECT Pnome, Unome, Nome_dependente<br>
+FROM FUNCIONARIO JOIN DEPENDENTE<br>
+ON Fcpf = Cpf<br>
+WHERE Nome_dependente LIKE "PL*"<br> OR Nome_dependente LIKE "\*I_"
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 16", para entender e usar as estruturas básicas de consultas em SQL.
