@@ -149,12 +149,11 @@ RESPOSTA (?)
 
 2. A partir da [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), escreva a seguinte consulta em SQL, por JUNÇÃO EXTERNA:<br>
 _Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver dependentes, liste também o nome dos seus dependentes_.
-
-|SQL|
-|-|
-|???|
   
-RESPOSTA (a)
+RESPOSTA<br>
+SELECT Pnome, Unome, Nome_dependente<br>
+FROM FUNCIONARIO LEFT OUTER JOIN DEPENDENTE<br>
+ON Cpf = Fcpf
 
 ## Artefatos
 
