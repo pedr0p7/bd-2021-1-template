@@ -140,11 +140,10 @@ Pronto, o **BD Empresa** foi criado e está pronto para ser manipulado (usado).<
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 16", para responder:  
 
-1. Você consegue executar e entender cada consulta apresentada nos exemplos?<br>Favor selecionar uma das respostas a seguir:
-   - "Sim, eu consigo executar e entender cada consulta apresentada nos exemplos", ou
-   - "Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
-
-P.S.: O [conteúdo do] banco de dados criado - BD Empresa - é o mesmo conteúdo da [ilustração do BD Empresa](../media/fig-mr-2.jpg)?
+Baseado na [ilustração do BD Empresa](../media/fig-mr-2.jpg), escreva em SQL a consulta:
+Para cada dependente, apresente o nome do dependente e o primeiro e último nomes do funcionário responsável pelo dependente, mas restrito aos dependentes em que:
+- as duas primeiras letras do nome do dependente são as mesmas do seu primeiro nome (se refere a você, que é discente da disciplina), ou
+- a penúltima letra do nome do dependente é a mesma do seu primeiro nome (se refere a você, que é discente da disciplina).
 
 ## Artefatos
 
