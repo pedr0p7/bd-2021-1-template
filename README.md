@@ -12,6 +12,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/tcz-ntej-xad]
 
 ### Avisos ativos
 
+- Para utilizar o **BD Empresa** na ferramenta [RelaX](https://dbis-uibk.github.io/relax/landing), veja as orientações em [aqui](https://github.com/aveusalex/BD_empresa), Autor: _Alex Victor Echeverria Ugarte Silva_.
 - Ao criar uma *issue*, selecione um dos *templates*: **Tópico** ou **Dúvida**.
 - Importante: O **Tópico T01** se refere à criação de um repositório **público** no **GitHub** para cada aluno.
 <br>
