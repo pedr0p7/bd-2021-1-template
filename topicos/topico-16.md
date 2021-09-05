@@ -144,6 +144,8 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
    - "Sim, eu consigo executar e entender cada consulta apresentada nos exemplos", ou
    - "Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
 
+P.S.: O [conteúdo do] banco de dados criado - BD Empresa - é o mesmo conteúdo da [ilustração do BD Empresa](../media/fig-mr-2.jpg)?
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 16", para entender e usar as estruturas básicas de consultas em SQL.
