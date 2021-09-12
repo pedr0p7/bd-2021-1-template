@@ -102,7 +102,7 @@ SELECT Salario FROM FUNCIONARIO WHERE Salario > <br>
 &nbsp;&nbsp;&nbsp;&nbsp;( SELECT MAX(Salario) FROM FUNCIONARIO WHERE Salario < <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( SELECT MAX(Salario) FROM FUNCIONARIO ) ) ) <br>
 **BGI**<br>
-SELECT Salario FROM FUNCIONARIO WHERE Salario > <br>
+SELECT Salario FROM FUNCIONARIO WHERE Salario >= <br>
 &nbsp;&nbsp;( SELECT MIN(Salario) FROM FUNCIONARIO WHERE Salario < <br>
 &nbsp;&nbsp;&nbsp;&nbsp;( SELECT MAX(Salario) FROM FUNCIONARIO WHERE Salario > <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( SELECT MIN(Salario) FROM FUNCIONARIO ) ) ) <br>
