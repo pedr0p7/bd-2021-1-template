@@ -1,4 +1,4 @@
-## [Tópico T28] - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)
+## [Tópico T29] - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Os exemplos apresentados usam o esquema lógico do **BD Empresa**, conforme abaixo.
@@ -69,7 +69,7 @@ Um classificação comum para subconsultas é:
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bxx-bd-2020-2, com o título "Tópico 28", para responder: 
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 19", para responder: 
 
 1. Em relação dm BD Empresa, escreva em SQL a consulta "Qual o CPF dos funcionários que possuem dois ou mais dependentes e que trabalham em dois ou mais projetos?"<br>O comando SQL deve:<br>■ usar pelo menos uma das operações UNIÃO, INTERSEÇÃO e DIFERENÇA, necessariamente conforme a sintaxe apresentada no tópico;<br>■ usar a cláusula HAVING.
 
@@ -78,4 +78,4 @@ SELECT Fcpf FROM DEPENDENTE GROUP BY Fcpf HAVING COUNT(\*) > 1<br>INTERSECT<br>S
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bxx-bd-2020-2, cujo título é "Tópico 28", para entender e usar União, Interseção e Diferença em consultas da SQL.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 19", para entender e usar União, Interseção e Diferença em consultas da SQL.
