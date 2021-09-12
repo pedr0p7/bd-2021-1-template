@@ -115,7 +115,7 @@ Se a relação FUNCIONARIO possui 6 (seis) valores distintos de salário, então
 
 RESPOSTAS:<br>
 01) 55000<br>
-02) 62 (BCC) , 63 (BGI) , xx (BIA)
+02) 62 (BCC) , 63 (BGI) , 60 (BIA)
 
 ## Artefatos
 
