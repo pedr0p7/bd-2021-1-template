@@ -1,5 +1,5 @@
 [Tópico T19](./topico-19.md) - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)<br>
-[Tópico T18](./topico-18.md) - SQL - DML (Data Manipulation Language): Junção, Junção Natural, Valor nulo, Junção Externa<br>
+[Tópico T18](./topico-18.md) - SQL - DML (Data Manipulation Language): Funções Agregadas, Agrupamento de dados, Ordenação de Dados<br>
 [Tópico T17](./topico-17.md) - SQL - DML (Data Manipulation Language): Junção, Junção Natural, Valor nulo, Junção Externa<br>
 [Tópico T16](./topico-16.md) - SQL - DML (Data Manipulation Language): Primeiros comandos<br>
 [Tópico T15](./topico-15.md) - SQL - Introdução, DDL (_Data Definition Language_)<br>
