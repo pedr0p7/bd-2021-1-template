@@ -71,7 +71,7 @@ Um classificação comum para subconsultas é:
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 19", para responder: 
 
-1. Em relação dm BD Empresa, escreva em SQL a consulta "Qual o CPF dos funcionários que possuem dois ou mais dependentes e que trabalham em dois ou mais projetos?"<br>O comando SQL deve:<br>■ usar pelo menos uma das operações UNIÃO, INTERSEÇÃO e DIFERENÇA, necessariamente conforme a sintaxe apresentada no tópico;<br>■ usar a cláusula HAVING.
+1. Em relação dm BD Empresa, escreva em SQL a consulta "Qual o primeiro e último nomes dos funcionários que possuem dois ou mais dependentes e que trabalham em dois ou mais projetos?"<br>O comando SQL deve:<br>■ usar pelo menos uma das operações UNIÃO, INTERSEÇÃO e DIFERENÇA, necessariamente conforme a sintaxe apresentada no tópico;<br>■ usar a cláusula HAVING.
 
 RESPOSTA:<br>
 SELECT Fcpf FROM DEPENDENTE GROUP BY Fcpf HAVING COUNT(\*) > 1<br>INTERSECT<br>SELECT Fcpf FROM TRABALHA_EM GROUP BY Fcpf HAVING COUNT(\*) > 1
