@@ -1,4 +1,4 @@
-## [Tópico T29] - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)
+## [Tópico T19] - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Os exemplos apresentados usam o esquema lógico do **BD Empresa**, conforme abaixo.
