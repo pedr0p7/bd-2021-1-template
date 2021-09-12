@@ -97,10 +97,10 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
 
 1. Seja o comando SQL:<br>
 **BCC**<br>
-SELECT Salario FROM FUNCIONARIO WHERE Salario ><br>
-&nbsp;&nbsp;( SELECT Max(Salario) FROM FUNCIONARIO WHERE Salario ><br>
-&nbsp;&nbsp;&nbsp;&nbsp;( SELECT Min(Salario) FROM FUNCIONARIO WHERE Salario ><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( SELECT Min(Salario) FROM FUNCIONARIO ) ) )<br>
+SELECT Salario FROM FUNCIONARIO WHERE Salario > <br>
+&nbsp;&nbsp;( SELECT MIN(Salario) FROM FUNCIONARIO WHERE Salario < <br>
+&nbsp;&nbsp;&nbsp;&nbsp;( SELECT MAX(Salario) FROM FUNCIONARIO WHERE Salario < <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( SELECT MAX(Salario) FROM FUNCIONARIO ) ) ) <br>
 Se a relação FUNCIONARIO possui 6 (seis) valores distintos de salário, então '_Salário 1_' é o menor salário e '_Salário 6_' é o maior salário. Some as sentenças verdadeiras:<br>(01) **Salário 1** está no resultado da consulta.<br>(02) **Salário 2** está no resultado da consulta.<br>(04) **Salário 3** está no resultado da consulta.<br>(08) **Salário 4** está no resultado da consulta.<br>(16) **Salário 5** está no resultado da consulta.<br>(32) **Salário 6** está no resultado da consulta.
 
 RESPOSTAS:<br>01) 55000<br>02) 56.
