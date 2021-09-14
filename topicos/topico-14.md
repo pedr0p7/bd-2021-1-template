@@ -83,7 +83,7 @@ O símbolo ⨯ é usado na operação:
 1. Qual o salário de cada fotógrafo?
    - **employees ⨝ personId=employeeId photographers**
 1. Qual o salário de cada fotógrafo?
-   - **employeeId, salary (employees ⨝ personId=employeeId photographers)**
+   - **π employeeId, salary (employees ⨝ personId=employeeId photographers)**
 1. Qual o nome e o salário de cada fotógrafo?
    - **f_salario = π employeeId, salary (employees ⨝ personId=employeeId photographers)**<br>**π employeeId, firstname, salary (persons ⨝ id=employeeId f_salario)**
 1. Qual o nome das pessoas que NÃO SÃO empregados?
