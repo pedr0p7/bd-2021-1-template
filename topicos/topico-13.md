@@ -99,6 +99,7 @@ Escreva em álgebra relacional as seguintes consultas:
 1. Quais as cervejas vendidas no bar “Pipoca”?
 1. Quais as pessoas que gostam de alguma(s) cerveja(s) vendida(s) no bar “Pipoca”?
 1. Quais as pessoas que não gostam de qualquer das cervejas vendidas no bar “Pipoca”?
+1. Quais as pessoas cujas cervejas que gostam são todas vendidas no bar “Pipoca”?
 
 IMPORTANTE: Use a sintaxe da Álgebra Relacional conforme os exemplos apresentados até então.
 
@@ -107,6 +108,8 @@ RESPOSTAS:
 1. RESULT ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )
 3. TEMP ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )<br>
 RESULT ← π Pessoa (GOSTA) - TEMP
+4. TEMP ← π Cerveja (VENDE) - π Cerveja ( σ Bar = "Pipoca" (VENDE) )<br>
+RESULT ← π Pessoa (GOSTA) - π Pessoa (TEMP * GOSTA) )
 
 ## Artefatos
 
