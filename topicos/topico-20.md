@@ -106,7 +106,7 @@ A Cláusula EXISTS é usualmente aplicada em subconsultas correlatas.
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 20", para responder: 
 
-1. Suponha que o banco de dados em uma empresa ha a relação PRODUTO com o seguinte esquema:<br>
+1. Suponha que, no banco de dados em uma empresa, há a relação PRODUTO com o seguinte esquema:<br>
 **PRODUTO (<ins>CodProd</ins>, Nome, PrecoUnitario)**
 
 1. Você consegue entender e usar os exemplos de subconsulta apresentados no tópico?<br>
