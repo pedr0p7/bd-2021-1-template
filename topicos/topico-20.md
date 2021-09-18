@@ -107,12 +107,13 @@ A Cláusula EXISTS é usualmente aplicada em subconsultas correlatas.
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 20", para responder: 
 
 Seja o banco de dados de uma empresa varejista, em que há a relação PRODUTO com o seguinte esquema:<br>
-**PRODUTO (<ins>CodProduto</ins>, Nome, PrecoUnitario)**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**PRODUTO (<ins>CodProduto</ins>, Nome, PrecoUnitario)**<br>
 Suponha que há dezenas de preços unitários distintos nos produtos que a empresa vende.
 
 1. Escreva em SQL, use subconsulta(s) independente(s), não use agrupamento e funções agregadas:<br>
-_Qual o código e o nome dos produtos que possuem os N preços unitários mais caros_?<br>
-&nbsp;&nbsp;&nbsp;&nbsp;N é o número de letras do seu primeiro nome; por exemplo, se seu primeiro nome for Maria: _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais caros_?
+_Qual o código e o nome dos produtos que possuem os **N** preços unitários mais caros_?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**N** é o número de letras do seu primeiro nome<br>
+Por exemplo, se seu primeiro nome for Maria: _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais caros_?
 
 1. Você consegue entender e usar os exemplos de subconsulta apresentados no tópico?<br>
 Favor selecionar uma das respostas a seguir:<br>
