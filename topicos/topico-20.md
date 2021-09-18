@@ -113,12 +113,14 @@ Suponha que há dezenas de preços unitários distintos nos produtos que a empre
 1. Escreva em SQL, use subconsulta(s) independente(s), não use agrupamento e funções agregadas:<br>
 _Qual o código e o nome dos produtos que possuem os **N** preços unitários mais caros_?<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**N** é o número de letras do seu primeiro nome.<br>
-Por exemplo, se seu primeiro nome for Maria: _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais caros_?
+Por exemplo, se o seu primeiro nome for 'Maria':<br>
+&#8718; _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais caros_?
 
-1. Você consegue entender e usar os exemplos de subconsulta apresentados no tópico?<br>
-Favor selecionar uma das respostas a seguir:<br>
-"Sim, eu consigo entender e usar os exemplos de subconsulta apresentados no tópico", ou<br>
-"Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
+1. Escreva em SQL, use subconsulta(s) correlata(s), não use agrupamento e funções agregadas:<br>
+_Qual o código e o nome dos produtos que possuem os **N** preços unitários mais baratos_?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**N** é o número de letras do seu primeiro nome.<br>
+Por exemplo, se o seu primeiro nome for 'Maria', então:<br>
+&#8718; _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais baratos_?
 
 ## Artefatos
 
