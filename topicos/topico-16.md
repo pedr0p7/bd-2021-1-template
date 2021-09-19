@@ -151,7 +151,7 @@ RESPOSTA<br>
 SELECT Pnome, Unome, Nome_dependente<br>
 FROM FUNCIONARIO JOIN DEPENDENTE<br>
 ON Fcpf = Cpf<br>
-WHERE Nome_dependente LIKE "PL*" OR Nome_dependente LIKE "*IO"
+WHERE Nome_dependente LIKE "PL%" OR Nome_dependente LIKE "%IO"
 
 ## Artefatos
 
