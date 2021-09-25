@@ -1,7 +1,7 @@
-## [Tópico T10] - Modelo Entidade Relacionamento (MER) - Demanda informacional
+## [Tópico T23] - Modelo Entidade Relacionamento (MER) - Demanda informacional
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
-O **projetista do banco de dados** toma várias decisões durante o **projeto conceitual**, baseando-se nos **requisitos de dados**. Certamente, o projetista participa de várias iterações para a análise e para a evolução do **esquema conceitual**. Possivelmente, o projetista se depara com vários *pontos de imprecisão*, tais como aqueles listados para a atividade do [Tópico 03](./topico-03.md).<br>
+O **projetista do banco de dados** toma várias decisões durante o **projeto conceitual**, baseando-se nos **requisitos de dados**. Certamente, o projetista participa de várias iterações para a análise e para a evolução do **esquema conceitual**. Possivelmente, o projetista se depara com vários *pontos de imprecisão*, tais como aqueles listados para a atividade do [Tópico 06](./topico-06.md).<br>
 
 O **projeto conceitual** do banco de dados envolve o emprego de um modelo de alto-nível, para a especificação do **esquema conceitual** do banco de dados. Nossa ementa adota o Modelo Entidade Relacionamento (MER) para guiar o **projeto conceitual**. 
 
@@ -119,7 +119,7 @@ A resposta à **Questão 02** está atrelada ao significado de cada elemento dos
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bxx-bd-2020-2, com o título "Tópico 10", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 23", para responder:  
 
 Seja o esquema conceitual do BD Empresa, que está representado por meio do DER apresentado acima. Avalie se as demandas informacionais abaixo podem ser atendidas pelo esquema conceitual.
 
@@ -132,7 +132,7 @@ Seja o esquema conceitual do BD Empresa, que está representado por meio do DER 
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bxx-bd-2020-2, cujo título é "Tópico 10", para indicar suas reflexões iniciais sobre *demandas informacionais atendidas a partir de um DER*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 23", para indicar suas reflexões iniciais sobre *demandas informacionais atendidas a partir de um DER*.
 
 ### Bibliografia
 
