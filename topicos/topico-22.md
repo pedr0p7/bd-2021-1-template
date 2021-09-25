@@ -106,17 +106,17 @@ Alguns dos conceitos do MER são apresentados a seguir. Vale ressaltar que o apr
 
 Os conceitos do Modelo Entidade Relacionamento (MER) podem ser empregados para especificar o Diagrama Entidade Relacionamento (DER), que é uma **representação visual** do **esquema conceitual** do banco de dados. A seguir é introduzida uma notação para o DER, conforme posta em [1].
 
-<img src="../media/fig-der-notacao.jpg" width="450">
+<img src="../media/fig-der-notacao.jpg" width="500">
 
 >***Questão:* Você consegue identificar e interpretar os conceitos do MER presentes no DER do BD Empresa (diagrama a seguir)?**
 >
-<img src="../media/fig-der-empresa.jpg" width="400">
+<img src="../media/fig-der-empresa.jpg" width="500">
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Considere o seguinte diagrama:
 
-<img src="../media/fig-diagrama-2.jpg" width="450">
+<img src="../media/fig-diagrama-2.jpg" width="500">
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 22", para responder:  
 
