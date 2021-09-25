@@ -1,5 +1,5 @@
 [Tópico T23](./topico-23.md) - Modelo Entidade Relacionamento (MER) - Demanda informacional<br>
-
+[Tópico T22](./topico-22.md) - Modelo Entidade Relacionamento (MER) - Primeiros passos e Checklist<br>
 [Tópico T21](./topico-21.md) - SQL - DML (Data Manipulation Language): Subconsulta (parte 2)<br>
 [Tópico T20](./topico-20.md) - SQL - DML (Data Manipulation Language): Subconsulta (parte 1)<br>
 [Tópico T19](./topico-19.md) - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)<br>
