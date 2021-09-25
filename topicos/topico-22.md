@@ -20,3 +20,38 @@ O produto do MER – esquema conceitual – pode ser representado por um diagram
 <img src="../media/fig-diagrama-1.jpg" width="410">
 
 Ao ler e reler os três diagramas - Diagramas (a), (b) e (c) na figura - você consegue concluir a seguinte interpretação para o tipo de relacionamento LOTAÇÃO: "*um departamento possui de zero a N empregados lotados, um empregado sempre está lotado em um único departamento*"?
+
+### _Checklist_
+
+Vimos que um **modelo de dados** é uma ***coleção de conceitos*** que podem ser usados para descrever a estrutura de um banco de dados, relacionamentos de dados, semântica de dados e restrições de consistência.
+
+Para o Modelo Entidade Relacionamento (MER), um *checklist* com a maioria dos conceitos deste modelo é apresentado abaixo.
+
+1. Modelo Entidade-Relacionamento (ER), Diagrama ER, Unified Modeling Language (UML)
+1. Requisitos de dados, Requisitos de software
+1. Esquema conceitual de banco de dados, Projeto conceitual de banco de dados
+1. Projeto lógico de banco de dados (ou mapeamento dentre modelos de dados), Projeto físico de banco de dados
+1. Entidade, Relacionamento, Atributo
+1. Tipo de entidade, Entidade, Instância de entidade
+1. Tipo de relacionamento, Relacionamento, Instância de relacionamento
+1. Atributo, Domínio de atributo
+1. Atributo com valor requerido, Atributo sem valor requerido, Atributo chave
+1. Atributo com valor repetível, Atributo valor não repetível, Atributo chave
+1. Atributo Simples, Atributo composto
+1. Atributo monovalorado, Atributo multivalorado
+1. Atributo com valor armazenado, Atributo com valor derivado
+1. Valor nulo, Valor não nulo
+1. Grau binário de um tipo de relacionamento, Grau ternário de um tipo de relacionamento, Grau **N** de um tipo de relacionamento
+1. Tipo de relacionamento recursivo, Tipo de relacionamento não recursivo
+1. Restrição de participação total, Restrição de participação parcial
+1. Restrição de Cardinalidade: 1:1 , 1:N , N:N
+1. Tipo de entidade fraca, Tipo de relacionamento de identificação
+1. Atributo de entidade, Atributo de relacionamento
+1. Especialização exclusiva, especialização não exclusiva
+1. Generalização parcial, generalização total
+
+>Para que que haja melhor fluência no emprego do MER, é pertinente e importante que entendamos **todos** os conceitos presentes no ***checklist* de conceitos** do MER, apresentado acima.
+
+Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados os Capítulos 7 e 8 do livro sugerido[1].
+
+[1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
