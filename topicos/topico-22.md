@@ -112,13 +112,13 @@ Os conceitos do Modelo Entidade Relacionamento (MER) podem ser empregados para e
 >
 <img src="../media/fig-der-empresa.jpg" width="500">
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **03/10/2021 23h59min59s**)
 
 Considere o seguinte diagrama:
 
 <img src="../media/fig-diagrama-2.jpg" width="500">
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 22", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bgi, com o título "Tópico 22", para responder:  
 
 1. Uma agência realiza de zero a vários empréstimos, e um empréstimo ocorre em uma e somente uma agência? (Responda Sim ou Não) Sim
 1. Um cliente requisita de zero a vários empréstimos, e um mesmo empréstimo ocorre para um ou mais clientes? (Responda Sim ou Não) Sim
@@ -128,7 +128,7 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
    
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 22", para indicar suas reflexões iniciais sobre *diagrama entidade relacionamento*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bgi, cujo título é "Tópico 22", para indicar suas reflexões iniciais sobre *diagrama entidade relacionamento*.
 
 ### Bibliografia
 
