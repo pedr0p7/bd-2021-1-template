@@ -72,4 +72,4 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
    
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bcc-bd-2020-2, cujo título é "Tópico 08", para indicar suas reflexões iniciais sobre *diagrama entidade relacionamento*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 22", para indicar suas reflexões iniciais sobre *diagrama entidade relacionamento*.
