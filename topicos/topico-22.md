@@ -1,4 +1,4 @@
-## [Tópico T22] - Modelo Entidade Relacionamento (MER) - Primeiros passos
+## [Tópico T22] - Modelo Entidade Relacionamento (MER) - Primeiros passos e _Checklist_
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 **Modelos de dados** promovem a percepção abstrata em níveis para o banco de dados. Nesse sentido, cada modelo de dados se refere a um nível de abstração próprio, para guiar a criação e a evolução de um esquema de banco de dados. A figura a seguir apresenta níveis de abstração para os vários esquemas de um mesmo banco de dados.
