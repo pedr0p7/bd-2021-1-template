@@ -112,7 +112,7 @@ Os conceitos do Modelo Entidade Relacionamento (MER) podem ser empregados para e
 >
 <img src="../media/fig-der-empresa.jpg" width="500">
 
-## Atividade (data limite: **03/10/2021 23h59min59s**)
+## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Considere o seguinte diagrama:
 
