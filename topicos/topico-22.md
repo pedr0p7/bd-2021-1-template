@@ -55,3 +55,21 @@ Para o Modelo Entidade Relacionamento (MER), um *checklist* com a maioria dos co
 Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados os Capítulos 7 e 8 do livro sugerido[1].
 
 [1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
+
+## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+
+Considere o seguinte diagrama:
+
+<img src="../media/fig-diagrama-2.jpg" width="450">
+
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 22", para responder:  
+
+1. Uma agência realiza de zero a vários empréstimos, e um empréstimo ocorre em uma e somente uma agência? (Responda Sim ou Não) Sim
+1. Um cliente requisita de zero a vários empréstimos, e um mesmo empréstimo ocorre para um ou mais clientes? (Responda Sim ou Não) Sim
+1. Qualquer conta está associada a pelo menos um cliente e a pelo menos uma agência? (Responda Sim ou Não) Sim
+1. Qualquer empréstimo está associado a pelo menos um cliente e a pelo menos uma agência? (Responda Sim ou Não) Sim
+1. Um banco possui de zero a várias agências, e uma agência está associada a um e somente um banco? (Responda Sim ou Não) Não
+   
+## Artefatos
+
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bcc-bd-2020-2, cujo título é "Tópico 08", para indicar suas reflexões iniciais sobre *diagrama entidade relacionamento*.
