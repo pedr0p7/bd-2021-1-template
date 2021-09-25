@@ -54,7 +54,7 @@ Para o Modelo Entidade Relacionamento (MER), um *checklist* com a maioria dos co
 
 Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados os Capítulos 7 e 8 do livro sugerido[1].
 
-### Elementos Relevantes X Tipo de Entidade X Tipos de Relacionamento X Atributo
+### Elementos Relevantes X Tipo de Entidade X Tipo de Relacionamento X Atributo
 
 Ao empregar o Modelo Entidade Relacionamento (MER) no projeto conceitual do banco de dados, é necessário **identificar os elementos relevantes pertinentes ao banco de dados (em estudo/análise)**, a partir dos requisitos de dados da aplicação. Sobre tais elementos relevantes, algumas questões são preeminentes:
 1. Que elementos relevantes são categorizados como **tipo de entidade**?
