@@ -46,7 +46,7 @@ Em ambas as soluções, LIGACAO possui dependência de existência com FAZ_CHAMA
 
 Outro assunto, você consegue interpretar o diagrama abaixo?
 
-<img src="../media/fig-der-entidade-fraca-3.jpg" width="700">
+<img src="../media/fig-der-entidade-fraca-3.jpg" width="400">
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
