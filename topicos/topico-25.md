@@ -71,7 +71,7 @@ Por exemplo, um **elemento conceitual** inicialmente categorizado como ***atribu
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Observe que, para cada decisão de projeto ilustrada acima, há um exemplo que é apresentado.<br>
-Tente desenhar um trecho de DER independente para cada exemplo apresentado, conforme a notação do DER apresentada no [Tópico 11](./topico-11.md). 
+Tente desenhar um trecho de DER independente para cada exemplo apresentado, conforme a notação do DER apresentada no [Tópico 22](./topico-22.md). 
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 25", para responder: 
 
