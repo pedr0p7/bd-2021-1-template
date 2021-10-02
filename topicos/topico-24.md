@@ -76,4 +76,4 @@ Convém citar Cora Coralina para esclarecer o objetivo da atividade: "O que vale
 
 ## Artefatos
 
-1. Diretório **topico-12**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
+1. Diretório **topico-24**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
