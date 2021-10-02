@@ -44,6 +44,10 @@ Em ambas as soluções, LIGACAO possui dependência de existência com FAZ_CHAMA
 - Contudo, somente na primeira solução - Diagrama (a) - o tipo de entidade LIGACAO é um tipo de entidade fraca.
 - Logo, dependência de existência não determina se uma entidade é fraca.
 
+Outro assunto, você consegue interpretar o diagrama abaixo?
+
+<img src="../media/fig-der-entidade-fraca-3.jpg" width="700">
+
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Crie o diretório **topico-24** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Finalmente você irá usá-lo, este é o repositório que você criou no início da disciplina.
