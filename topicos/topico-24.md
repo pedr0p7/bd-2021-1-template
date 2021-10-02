@@ -46,7 +46,7 @@ Em ambas as soluções, LIGACAO possui dependência de existência com FAZ_CHAMA
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Crie o diretório **topico-12** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Finalmente você irá usá-lo, este é o repositório que você criou no início da disciplina.
+Crie o diretório **topico-24** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Finalmente você irá usá-lo, este é o repositório que você criou no início da disciplina.
 
 Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um DER que você criará:
 - ao depositar o arquivo, checar se as dimensões da imagem do diagrama estão ajustadas à area de apresentação no GitHub (não deve ser muito pequeno a ponto de tornar-se ilegível, nem grande demais a ponto de ser necessário **rolar** (*to scroll*) para visualizar).
