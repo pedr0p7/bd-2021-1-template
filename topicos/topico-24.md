@@ -72,7 +72,7 @@ Requisitos de dados:
   - qual o faturamento diário da empresa?
 
 Este é o seu primeiro **esquema conceitual**? Faça você mesmo, evite olhar respostas prontas.<br>
-Convém citar Cora Coralina para esclarecer o objetivo da atividade: "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher".
+Convém citar Cora Coralina para esclarecer o objetivo da atividade:<br>"O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher".
 
 ## Artefatos
 
