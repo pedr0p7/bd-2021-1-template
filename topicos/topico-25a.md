@@ -9,7 +9,7 @@ Seja o diagrama abaixo, referente ao esquema conceitual a um _banco de dados de 
    - Qual a identificação (atributo chave) do tipo de entidade ITEM DE VENDA?
    - Um mesmo produto pode ser vendido várias vezes ao mesmo cliente?
    - Um item de venda se refere a um produto?
-   - Qual o atributo chave de ITEM DE VENDA?
+   - Qual o atributo chave em ITEM DE VENDA?
 
 ### **Reflexões 02.**<br>Quais as alterações no esquema para atender as seguintes consultas:
    - Qual o valor vendido a cada cliente?
