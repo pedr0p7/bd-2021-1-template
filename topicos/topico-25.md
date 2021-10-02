@@ -1,4 +1,4 @@
-## [Tópico T13] - Modelo Entidade Relacionamento (MER) - Decisões de Projeto
+## [Tópico T25] - Modelo Entidade Relacionamento (MER) - Decisões de Projeto
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)* &#9728;
 
 Ao abstrair potenciais elementos conceituais no projeto de banco de dados, a questão inicial é:
