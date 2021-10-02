@@ -122,6 +122,22 @@ _Qual o código e o nome dos produtos que possuem os **N** preços unitários ma
 Por exemplo, se o seu primeiro nome for 'Maria', então:<br>
 &#8718; _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais baratos_?
 
+CREATE TABLE PRODUTO (CodProduto int, Nome VARCHAR(10), PrecoUnitario FLOAT)
+INSERT INTO  PRODUTO VALUES (1, 'PRODUTO 01', 1.11);
+INSERT INTO  PRODUTO VALUES (2, 'PRODUTO 02', 2.11);
+INSERT INTO  PRODUTO VALUES (3, 'PRODUTO 03', 3.11);
+INSERT INTO  PRODUTO VALUES (4, 'PRODUTO 04', 4.11);
+INSERT INTO  PRODUTO VALUES (5, 'PRODUTO 05', 5.11);
+INSERT INTO  PRODUTO VALUES (6, 'PRODUTO 06', 6.11);
+INSERT INTO  PRODUTO VALUES (7, 'PRODUTO 07', 7.11);
+INSERT INTO  PRODUTO VALUES (8, 'PRODUTO 08', 8.11);
+INSERT INTO  PRODUTO VALUES (9, 'PRODUTO 09', 9.11);
+INSERT INTO  PRODUTO VALUES (10, 'PRODUTO 10', 10.11);
+INSERT INTO  PRODUTO VALUES (11, 'PRODUTO 11', 11.11);
+INSERT INTO  PRODUTO VALUES (12, 'PRODUTO 12', 12.11);
+INSERT INTO  PRODUTO VALUES (13, 'PRODUTO 13', 13.11);
+INSERT INTO  PRODUTO VALUES (14, 'PRODUTO 14', 14.11);
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 20", para entender e usar subconsultas em consultas da SQL.
