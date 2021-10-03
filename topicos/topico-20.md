@@ -122,7 +122,7 @@ _Qual o código e o nome dos produtos que possuem os **N** preços unitários ma
 Por exemplo, se o seu primeiro nome for 'Maria', então:<br>
 &#8718; _Qual o código e o nome dos produtos que possuem os cinco preços unitários mais baratos_?
 
-CREATE TABLE PRODUTO (CodProduto int, Nome VARCHAR(10), PrecoUnitario FLOAT)
+CREATE TABLE PRODUTO (CodProduto int, Nome VARCHAR(10), PrecoUnitario FLOAT);
 INSERT INTO  PRODUTO VALUES (1, 'PRODUTO 01', 1.11);
 INSERT INTO  PRODUTO VALUES (2, 'PRODUTO 02', 2.11);
 INSERT INTO  PRODUTO VALUES (3, 'PRODUTO 03', 3.11);
