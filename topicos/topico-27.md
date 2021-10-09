@@ -36,7 +36,7 @@ A relação EMPRESTIMO (**CPF, ISBN, DataInicio**, DataFinalPrevista, DataFinalR
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 27", para responder: 
+Com respeito ao **Exercício 02**, criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 27", para responder: 
 
 1. De acordo com as restrições de integridade no banco de dados,<br>
 (a) uma editora pode ter mais de um endereço.<br>
