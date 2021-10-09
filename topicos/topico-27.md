@@ -3,7 +3,7 @@
 
 ```diff
 + Vários foram os conceitos estudados até o momento, conforme a nossa ementa.
-- Tenhamos, em tal caso, uma oportunidade para _exercícios de revisão_.
+- Tenhamos, em tal caso, uma oportunidade para 'exercícios de revisão'.
 @@ Enfim, um breve momento para convergir nossas percepções. @@
 ```
 
