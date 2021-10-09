@@ -11,7 +11,6 @@ Responda as questões abaixo:
    - Qual a identificação (atributo chave) do tipo de entidade ITEM DE VENDA?
    - Um mesmo produto pode ser vendido várias vezes ao mesmo cliente?
    - Um item de venda se refere a um produto?
-   - Qual o atributo chave em ITEM DE VENDA?
 
 ### Reflexões 02
 
