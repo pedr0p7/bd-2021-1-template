@@ -15,6 +15,7 @@ Responda as questões abaixo:
    - Um item de venda se refere a um produto?
 
 **~~Reflexões 02~~**
+|-|
 
 Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
    - Qual o valor vendido a cada cliente?
