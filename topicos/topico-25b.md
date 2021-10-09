@@ -5,8 +5,8 @@ Seja o diagrama abaixo, referente ao esquema conceitual a um _banco de dados de 
 
 <img src="../media/fig-der-vendas-1.jpg" width="300">
 
-|-|
-|### Reflexões 01|
+
+|Reflexões 01|
 |-|
 
 Responda as questões abaixo:
@@ -21,7 +21,7 @@ Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
    - Qual o produto teve maior quantidade de itens vendidos em um dado período?
    - Qual o preço unitário de venda de cada produto na data em que o mesmo foi vendido?### Requisitos de dados - BD Empresa
 
-<img src="../media/fig-der-vendas-2.jpg" width="300">
+<img src="../media/fig-der-vendas-2.jpg" width="450">
 
 ### Reflexões 03
 
