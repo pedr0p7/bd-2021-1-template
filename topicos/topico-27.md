@@ -38,7 +38,15 @@ A relação EMPRESTIMO (**CPF, ISBN, DataInicio**, DataFinalPrevista, DataFinalR
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 27", para responder: 
 
-1. Valores nulos são permitidos para alguns atributos do banco de dados. Um atributo que pode ter valor nulo é:<br>
+1. De acordo com as restrições de integridade no banco de dados,<br>
+(a) uma editora pode ter mais de um endereço.<br>
+(b) uma pessoa pode ter mais de um endereço.<br>
+(c) um livro pode ser emprestado várias vezes para uma mesma pessoa.<br> 
+(d) um livro pode ser editado por várias editoras e pode ter vários autores distintos.<br>
+(e) Nenhum das alternativas anteriores.<br>
+RESPOSTA (c)
+
+2. Valores nulos são permitidos para alguns atributos do banco de dados. Um atributo que pode ter valor nulo é:<br>
 (a) Codigo em LIVRO.<br>
 (b) Identificador em PESSOA.<br>
 (c) Identificador em EDITORA.<br>
@@ -46,7 +54,7 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com 
 (e) Nenhum das alternativas anteriores.<br>
 RESPOSTA (b)
 
-2. Valores de alguns atributos devem ser únicos entre as tuplas de uma relação, tal como o atributo<br>
+3. Valores de alguns atributos devem ser únicos entre as tuplas de uma relação, tal como o atributo<br>
 (a) Numero em AUTOR.<br>
 (b) ISBN em AUTORIA.<br>
 (c) ISBN em EMPRESTIMO.<br>
@@ -54,19 +62,11 @@ RESPOSTA (b)
 (e) Nenhum das alternativas anteriores.<br>
 RESPOSTA (a)
 
-3. Uma informação obtida a partir do banco de dados é:<br>
+4. Uma informação obtida a partir do banco de dados é:<br>
 (a) a idade de cada autor.<br>
 (b) os livros comprados no último mês.<br>
 (c) a quantidade de dias de atraso dos empréstimos devolvidos com atraso.<br>
 (d) o nome das editoras que mudaram de endereço mais de uma vez no último ano.<br>
-(e) Nenhum das alternativas anteriores.<br>
-RESPOSTA (c)
-
-4. De acordo com as restrições de integridade no banco de dados,<br>
-(a) uma editora pode ter mais de um endereço.<br>
-(b) uma pessoa pode ter mais de um endereço.<br>
-(c) um livro pode ser emprestado várias vezes para uma mesma pessoa.<br> 
-(d) um livro pode ser editado por várias editoras e pode ter vários autores distintos.<br>
 (e) Nenhum das alternativas anteriores.<br>
 RESPOSTA (c)
 
