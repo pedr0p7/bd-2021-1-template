@@ -32,8 +32,6 @@ Responda as questões abaixo:
 - Qual o significado do atributo **Preço unitário** em ITEM DE VENDA?
 - Como saber o _valor total de uma venda_?
 
-<img src="../media/fig-der-vendas-3.jpg" width="450">
-
 ### Reflexões 04
 
 Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
