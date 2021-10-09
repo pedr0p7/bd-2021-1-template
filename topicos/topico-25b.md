@@ -6,7 +6,7 @@ Seja o diagrama abaixo, referente ao esquema conceitual a um _banco de dados de 
 <img src="../media/fig-der-vendas-1.jpg" width="300">
 
 
-|Reflexões 01|
+|###Reflexões 01|
 |-|
 
 Responda as questões abaixo:
