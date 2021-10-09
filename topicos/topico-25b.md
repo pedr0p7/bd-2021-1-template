@@ -6,7 +6,7 @@ Seja o diagrama abaixo, referente ao esquema conceitual a um _banco de dados de 
 <img src="../media/fig-der-vendas-1.jpg" width="300">
 
 
-|###Reflexões 01|
+**~~Reflexões 01~~**
 |-|
 
 Responda as questões abaixo:
@@ -14,7 +14,7 @@ Responda as questões abaixo:
    - Um mesmo produto pode ser vendido várias vezes ao mesmo cliente?
    - Um item de venda se refere a um produto?
 
-### Reflexões 02
+**~~Reflexões 02~~**
 
 Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
    - Qual o valor vendido a cada cliente?
