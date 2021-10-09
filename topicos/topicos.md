@@ -1,7 +1,7 @@
-[Tópico T27](./topico-27.md) - Exercício: SQL, Modelo Relacional<br>
+[Tópico T27](./topico-27.md) - Exercício de revisão: SQL, Modelo Relacional<br>
 [Tópico T26](./topico-26.md) - Modelo Entidade Relacionamento (MER) - Generalização/Especialização<br>
-[Tópico T25b](./topico-25b.md) - Exercício: Modelo Entidade Relacionamento (MER) - cont. 1<br>
-[Tópico T25a](./topico-25a.md) - Exercício: Modelo Entidade Relacionamento (MER)<br>
+[Tópico T25b](./topico-25b.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 1)<br>
+[Tópico T25a](./topico-25a.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico T25](./topico-25.md) - Modelo Entidade Relacionamento (MER) - Decisões de Projeto<br>
 [Tópico T24](./topico-24.md) - Modelo Entidade Relacionamento (MER) - Tipo de entidade fraca<br>
 [Tópico T23](./topico-23.md) - Modelo Entidade Relacionamento (MER) - Demanda informacional<br>
