@@ -116,8 +116,8 @@ Favor ver as consultas em **Reflexões 06** no [Tópico 25c](../topicos/topico-2
 Observações importantes:<br>
 &#9786; O ponto de partida é o DER resultante das consultas em **Reflexões 05** no [Tópico 25c](../topicos/topico-25c.md).<br>
 &#9786; Não remova qualquer elemento do DER em **Reflexões 05**, apenas acrescente novos elementos.<br>
-&#9786; Faça marcações coloridas (bolas verdes) no elementos que você acrescentou.<br>
-&#9786; Somente os elementos que você acrescentou devemk ter as marcações coloridas.<br>
+&#9786; Faça marcações coloridas (bolas verdes) em todos os elementos que você acrescentou.<br>
+&#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
 &#9786; É necessário 'desenhar' o DER completo (não apenas as partes acrescentadas).
 
 ## Artefatos
