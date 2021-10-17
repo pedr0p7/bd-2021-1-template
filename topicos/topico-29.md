@@ -1,4 +1,4 @@
-## [Tópico T32] - Mapeamento MER para MR (parte 1)
+## [Tópico T38] - Mapeamento MER para MR (parte 1)
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 O conteúdo apresentado usa o esquema conceitual do **BD Empresa**, conforme abaixo.
@@ -99,7 +99,7 @@ Se houver um tipo de entidade fraca E2 cujo tipo de entidade proprietária tamb�
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Crie o diretório **topico-29** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
+Crie o diretório **topico-28** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
 
 Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um DER conforme solicitado na atividade. **Atenção às diretrizes abaixo**:
 - Use a ferramenta que desejar, desde que a especificação do DER tenha **precisamente** a notação apresentada no [Tópico 22](./topico-22.md):
@@ -122,4 +122,4 @@ Observações importantes:<br>
 
 ## Artefatos
 
-1. Diretório **topico-29**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
+1. Diretório **topico-28**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
