@@ -40,7 +40,7 @@ Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
 - Quais as parcelas pagas de uma venda?
 - Quais as parcelas não pagas de uma venda?
 
-<img src="../media/fig-der-vendas-3.jpg" width="450">
+<img src="../media/fig-der-vendas-3.jpg" width="550">
 
 **~~Reflexões 05~~**
 |-|
@@ -50,7 +50,7 @@ Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
 - Quais as parcelas pagas em atraso?
 - Quais os juros cobrados nas parcelas pagas em atraso?
 
-<img src="../media/fig-der-vendas-4.jpg" width="450">
+<img src="../media/fig-der-vendas-4.jpg" width="550">
 
 ### Reflexões 06
 
