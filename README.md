@@ -4,7 +4,7 @@ O plano da disciplina está disponível [aqui](./media/bcc-bd-2020-2-plano.pdf).
 Recomendações sobre direitos autorais [aqui](./media/recomendacao-prograd.pdf).<br>
 Os momentos síncronos ocorrerão na sala [https://meet.google.com/tcz-ntej-xad](https://meet.google.com/tcz-ntej-xad), 16h00-16h50, segunda-feira e quinta-feira.
 
-[Aqui](https://github.com/plinioleitao/bd-2021-1-bcc/media/resolucao-2021-0082.bcc)
+[Aqui](https://github.com/plinioleitao/bd-2021-1-bcc/data/resolucao-2021-0082.bcc)
 
 ### Tópicos recentes
 
