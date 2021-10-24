@@ -81,28 +81,29 @@ Observações importantes:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2) IS PRIMARY KEY<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (CE) REFERENCES TAB1 (A1)<br>
 &#9786; Não apresente a aplicação de cada regra.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Mostre apenas o esquema lógico final após aplicar todas as regras.
+&nbsp;&nbsp;&nbsp;&nbsp;Mostre apenas o esquema lógico final após aplicar todas as regras.<br>
+&#9786; Um aluno pode ter várias notas iguais em uma mesma turma.
 
 RESPOSTA<br>
-ALUNO (MatriculaAluno, Nome, DataIngresso)
-ALUNO (MatriculaAluno) IS PRIMARY KEY
-CURSO (NumeroCurso, Nome, Diretor, Creditos)
-CURSO (NumeroCurso) IS PRIMARY KEY
-DISCIPLINA (CodigoDisciplina, Ementa, Descricao)
-DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY
-PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)
-PROFESSOR (MatriculaProfessor) IS PRIMARY KEY
-PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)
-TURMA (CodigoDisciplina, CodigoTurma, Semestre, Sala, Horario, MatriculaProfessor)
-TURMA (CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY
-TURMA (CodigoDisciplina) REFERENCES DISCIPLINA (CodigoDisciplina)
-TURMA (MatriculaProfessor) REFERENCES PROFESSOR (MatriculaProfessor)
-TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)
-TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY
-TURMA_ALUNO (MatriculaAluno) REFERENCES ALUNO (MatriculaAluno)
-TURMA_ALUNO (CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA (CodigoDisciplina, CodigoTurma, Semestre)
-TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia, Nota)
-TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia) IS PRIMARY KEY
+ALUNO (MatriculaAluno, Nome, DataIngresso)<br>
+ALUNO (MatriculaAluno) IS PRIMARY KEY<br>
+CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>
+CURSO (NumeroCurso) IS PRIMARY KEY<br>
+DISCIPLINA (CodigoDisciplina, Ementa, Descricao)<br>
+DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY<br>
+PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)<br>
+PROFESSOR (MatriculaProfessor) IS PRIMARY KEY<br>
+PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)<br>
+TURMA (CodigoDisciplina, CodigoTurma, Semestre, Sala, Horario, MatriculaProfessor)<br>
+TURMA (CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>
+TURMA (CodigoDisciplina) REFERENCES DISCIPLINA (CodigoDisciplina)<br>
+TURMA (MatriculaProfessor) REFERENCES PROFESSOR (MatriculaProfessor)<br>
+TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)<br>
+TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>
+TURMA_ALUNO (MatriculaAluno) REFERENCES ALUNO (MatriculaAluno)<br>
+TURMA_ALUNO (CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA (CodigoDisciplina, CodigoTurma, Semestre)<br>
+TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia, Nota)<br>
+TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia) IS PRIMARY KEY<br>
 TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)
 
 ## Artefatos
