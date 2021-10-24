@@ -94,7 +94,7 @@ A atividade considera o esquema lógico do BD Biblioteca, conforme a figura abai
 
 <img src="../media/fig-esquema-logico-biblioteca.jpg" width="250">
 
-1. Desenhe um DER para o BD Biblioteca, que foi usado para obter o esquema lógico do BD Biblioteca.<br>
+1. Desenhe um DER para o BD Biblioteca, o qual pode ser mapeado para obter o esquema lógico do BD Biblioteca.<br>
 Aplique **precisamente** a notação apresentada no [Tópico 22](./topico-22.md).
 
 ## Artefatos
