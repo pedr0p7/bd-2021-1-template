@@ -83,6 +83,28 @@ Observações importantes:<br>
 &#9786; Não apresente a aplicação de cada regra.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Mostre apenas o esquema lógico final após aplicar todas as regras.
 
+RESPOSTA<br>
+ALUNO (MatriculaAluno, Nome, DataIngresso)
+ALUNO (MatriculaAluno) IS PRIMARY KEY
+CURSO (NumeroCurso, Nome, Diretor, Creditos)
+CURSO (NumeroCurso) IS PRIMARY KEY
+DISCIPLINA (CodigoDisciplina, Ementa, Descricao)
+DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY
+PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)
+PROFESSOR (MatriculaProfessor) IS PRIMARY KEY
+PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)
+TURMA (CodigoDisciplina, CodigoTurma, Semestre, Sala, Horario, MatriculaProfessor)
+TURMA (CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY
+TURMA (CodigoDisciplina) REFERENCES DISCIPLINA (CodigoDisciplina)
+TURMA (MatriculaProfessor) REFERENCES PROFESSOR (MatriculaProfessor)
+TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)
+TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY
+TURMA_ALUNO (MatriculaAluno) REFERENCES ALUNO (MatriculaAluno)
+TURMA_ALUNO (CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA (CodigoDisciplina, CodigoTurma, Semestre)
+TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia, Nota)
+TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia) IS PRIMARY KEY
+TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 30", para exercitar o mapeamento entre esquemas segundo o Modelo Entidade Relacionamento e segundo o Modelo relacional.
