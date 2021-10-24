@@ -66,24 +66,20 @@ A aplicação desta regra ao esquema da figura acima resulta em (_realce em **ne
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Crie o diretório **topico-30** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 30", para responder: 
 
-Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um DER conforme solicitado na atividade. **Atenção às diretrizes abaixo**:
-- Use a ferramenta que desejar, desde que a especificação do DER tenha **precisamente** a notação apresentada no [Tópico 22](./topico-22.md):
-  - Sugestão: use a ferramenta [Dia](http://dia-installer.de/), que é uma ferramenta de desenho:
-    - para especificar o DER, selecione a *Folha* **ER** (em vez da *Folha* **Banco de Dados**);
-    - ao final, exporte o desenho para um arquivo JPG.
-- Ao 'depositar' o arquivo no diretório, checar se as dimensões da imagem do diagrama estão ajustadas à area de apresentação no GitHub (não deve ser muito pequeno a ponto de tornar-se ilegível, nem grande demais a ponto de ser necessário **rolar** (*to scroll*) para visualizar).
-- Faça você mesmo, evite olhar respostas prontas.<br> Novamente, convém citar Cora Coralina para esclarecer o objetivo da atividade: "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher".
-
-A atividade considera o DER de uma universidade, conformne ilustrado na figura a seguir.
+A atividade considera o DER do BD Universidade, conforme ilustrado na figura a seguir.
 
 <img src="../media/fig-der-universidade.jpg" width="600">
 
-1. Quais as alterações no DER tal que as consultas em **Reflexões 06** sejam atendidas?<br>
-Favor ver as consultas em **Reflexões 06** no [Tópico 25c](../topicos/topico-25c.md).<br>
+1. Apresente um esquema lógico, segundo o Modelo Entidade Relacionamento, pertinente ao DER do BD Universidade.<br>
 Observações importantes:<br>
-&#9786; O ponto de partida é o DER resultante das consultas em **Reflexões 05** no [Tópico 25c](../topicos/topico-25c.md).<br>
+&#9786; Siga rigorosamente a seguinte notação:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TAB1 (A1, A2, A3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TAB1 (A1) IS PRIMARY KEY<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2, CE)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2) IS PRIMARY KEY<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (CE) REFERENCES TAB1 (A1)<br>
 &#9786; Não remova qualquer elemento do DER em **Reflexões 05**, apenas acrescente novos elementos.<br>
 &#9786; Faça marcações coloridas (bolas verdes) em todos os elementos que você acrescentou.<br>
 &#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
