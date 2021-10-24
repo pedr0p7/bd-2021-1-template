@@ -66,7 +66,7 @@ A aplicação desta regra ao esquema da figura acima resulta em (_realce em **ne
 
 ## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
-Crie o diretório **topico-28** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
+Crie o diretório **topico-30** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
 
 Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um DER conforme solicitado na atividade. **Atenção às diretrizes abaixo**:
 - Use a ferramenta que desejar, desde que a especificação do DER tenha **precisamente** a notação apresentada no [Tópico 22](./topico-22.md):
@@ -76,7 +76,9 @@ Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um
 - Ao 'depositar' o arquivo no diretório, checar se as dimensões da imagem do diagrama estão ajustadas à area de apresentação no GitHub (não deve ser muito pequeno a ponto de tornar-se ilegível, nem grande demais a ponto de ser necessário **rolar** (*to scroll*) para visualizar).
 - Faça você mesmo, evite olhar respostas prontas.<br> Novamente, convém citar Cora Coralina para esclarecer o objetivo da atividade: "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher".
 
-A atividade considera os requisitos de dados **BD Venda Online**, [Tópico 25c](../topicos/topico-25c.md).
+A atividade considera o DER de uma universidade, conformne ilustrado na figura a seguir.
+
+<img src="../media/fig-der_universidade.jpg" width="450">
 
 1. Quais as alterações no DER tal que as consultas em **Reflexões 06** sejam atendidas?<br>
 Favor ver as consultas em **Reflexões 06** no [Tópico 25c](../topicos/topico-25c.md).<br>
