@@ -78,7 +78,7 @@ Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um
 
 A atividade considera o DER de uma universidade, conformne ilustrado na figura a seguir.
 
-<img src="../media/fig-der-universidade.jpg" width="450">
+<img src="../media/fig-der-universidade.jpg" width="600">
 
 1. Quais as alterações no DER tal que as consultas em **Reflexões 06** sejam atendidas?<br>
 Favor ver as consultas em **Reflexões 06** no [Tópico 25c](../topicos/topico-25c.md).<br>
