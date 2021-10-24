@@ -75,11 +75,11 @@ A atividade considera o DER do BD Universidade, conforme ilustrado na figura a s
 1. Apresente um esquema lógico, segundo o Modelo Entidade Relacionamento, pertinente ao DER do BD Universidade.<br>
 Observações importantes:<br>
 &#9786; Siga rigorosamente a seguinte notação:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;TAB1 (A1, A2, A3)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;TAB1 (A1) IS PRIMARY KEY<br>
-&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2, CE)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2) IS PRIMARY KEY<br>
-&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (CE) REFERENCES TAB1 (A1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB1 (A1, A2, A3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB1 (A1) IS PRIMARY KEY<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2, CE)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2) IS PRIMARY KEY<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (CE) REFERENCES TAB1 (A1)<br>
 &#9786; Não remova qualquer elemento do DER em **Reflexões 05**, apenas acrescente novos elementos.<br>
 &#9786; Faça marcações coloridas (bolas verdes) em todos os elementos que você acrescentou.<br>
 &#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
