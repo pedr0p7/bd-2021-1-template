@@ -99,5 +99,4 @@ Aplique **precisamente** a notação apresentada no [Tópico 22](./topico-22.md)
 
 ## Artefatos
 
-1. Diretório **topico-28**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
-
+1. Diretório **topico-31**, criado no repositório do estudante, com o DER do BD Biblioteca.
