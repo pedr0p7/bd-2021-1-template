@@ -92,7 +92,7 @@ Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um
 
 A atividade considera o esquema lógico do BD Biblioteca, conforme a figura abaixo.
 
-<img src="../media/fig-esquema-logico-biblioteca.jpg" width="400">
+<img src="../media/fig-esquema-logico-biblioteca.jpg" width="250">
 
 1. Desenhe um DER para o BD Biblioteca, que foi usado para obter o esquema lógico do BD Biblioteca.<br>
 Aplique **precisamente** a notação apresentada no [Tópico 22](./topico-22.md).
