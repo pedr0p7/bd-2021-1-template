@@ -90,16 +90,12 @@ Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um
 - Ao 'depositar' o arquivo no diretório, checar se as dimensões da imagem do diagrama estão ajustadas à area de apresentação no GitHub (não deve ser muito pequeno a ponto de tornar-se ilegível, nem grande demais a ponto de ser necessário **rolar** (*to scroll*) para visualizar).
 - Faça você mesmo, evite olhar respostas prontas.<br> Novamente, convém citar Cora Coralina para esclarecer o objetivo da atividade: "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher".
 
-A atividade considera os requisitos de dados **BD Venda Online**, [Tópico 25c](../topicos/topico-25c.md).
+A atividade considera o esquema lógico do BD Biblioteca, conforme a figura abaixo.
 
-1. Quais as alterações no DER tal que as consultas em **Reflexões 06** sejam atendidas?<br>
-Favor ver as consultas em **Reflexões 06** no [Tópico 25c](../topicos/topico-25c.md).<br>
-Observações importantes:<br>
-&#9786; O ponto de partida é o DER resultante das consultas em **Reflexões 05** no [Tópico 25c](../topicos/topico-25c.md).<br>
-&#9786; Não remova qualquer elemento do DER em **Reflexões 05**, apenas acrescente novos elementos.<br>
-&#9786; Faça marcações coloridas (bolas verdes) em todos os elementos que você acrescentou.<br>
-&#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
-&#9786; É necessário 'desenhar' o DER completo (não apenas as partes acrescentadas).
+<img src="../media/fig-esquema-logico-biblioteca.jpg" width="400">
+
+1. Desenhe um DER para o BD Biblioteca, que foi usado para obter o esquema lógico do BD Biblioteca.<br>
+Aplique **precisamente** a notação apresentada no [Tópico 22](./topico-22.md).
 
 ## Artefatos
 
