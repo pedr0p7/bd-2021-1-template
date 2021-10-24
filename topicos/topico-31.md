@@ -78,4 +78,30 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 |-|
 |PESSOA (CodCli, **Tipo_pessoa_fisica**, **Tipo_pessoa_juridica**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodCli) IS PRIMARY KEY|
 
-## Não há atividade para este tópico, excepcionalmente.
+## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+
+Crie o diretório **topico-31** no seu repositório https://github.com/nomealuno/bd-2021-1-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
+
+Neste diretório você deverá depositar um arquivo JPG, contendo a imagem de um DER conforme solicitado na atividade. **Atenção às diretrizes abaixo**:
+- Use a ferramenta que desejar, desde que a especificação do DER tenha **precisamente** a notação apresentada no [Tópico 22](./topico-22.md):
+  - Sugestão: use a ferramenta [Dia](http://dia-installer.de/), que é uma ferramenta de desenho:
+    - para especificar o DER, selecione a *Folha* **ER** (em vez da *Folha* **Banco de Dados**);
+    - ao final, exporte o desenho para um arquivo JPG.
+- Ao 'depositar' o arquivo no diretório, checar se as dimensões da imagem do diagrama estão ajustadas à area de apresentação no GitHub (não deve ser muito pequeno a ponto de tornar-se ilegível, nem grande demais a ponto de ser necessário **rolar** (*to scroll*) para visualizar).
+- Faça você mesmo, evite olhar respostas prontas.<br> Novamente, convém citar Cora Coralina para esclarecer o objetivo da atividade: "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher".
+
+A atividade considera os requisitos de dados **BD Venda Online**, [Tópico 25c](../topicos/topico-25c.md).
+
+1. Quais as alterações no DER tal que as consultas em **Reflexões 06** sejam atendidas?<br>
+Favor ver as consultas em **Reflexões 06** no [Tópico 25c](../topicos/topico-25c.md).<br>
+Observações importantes:<br>
+&#9786; O ponto de partida é o DER resultante das consultas em **Reflexões 05** no [Tópico 25c](../topicos/topico-25c.md).<br>
+&#9786; Não remova qualquer elemento do DER em **Reflexões 05**, apenas acrescente novos elementos.<br>
+&#9786; Faça marcações coloridas (bolas verdes) em todos os elementos que você acrescentou.<br>
+&#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
+&#9786; É necessário 'desenhar' o DER completo (não apenas as partes acrescentadas).
+
+## Artefatos
+
+1. Diretório **topico-28**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
+
