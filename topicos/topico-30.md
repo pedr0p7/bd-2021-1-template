@@ -80,12 +80,9 @@ Observações importantes:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2, CE)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (B1, B2) IS PRIMARY KEY<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAB2 (CE) REFERENCES TAB1 (A1)<br>
-&#9786; Não remova qualquer elemento do DER em **Reflexões 05**, apenas acrescente novos elementos.<br>
-&#9786; Faça marcações coloridas (bolas verdes) em todos os elementos que você acrescentou.<br>
-&#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
-&#9786; É necessário 'desenhar' o DER completo (não apenas as partes acrescentadas).
+&#9786; Não apresente a aplicação de cada regra.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Mostre apenas o esquema lógico final após aplicar todas as regras aplicáveis.
 
 ## Artefatos
 
-1. Diretório **topico-28**, criado no repositório do estudante, contendo um arquivo com a imagem JPG do DER solicitado.
-
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 30", para exercitar o mapeamento entre esquemas segundo o Modelo Entidade Relacionamento e segundo o Modelo relacional.
