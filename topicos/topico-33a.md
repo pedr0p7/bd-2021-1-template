@@ -59,5 +59,9 @@ Três projetistas de banco de dados - Projetista 01, Projetista 02 e Projetista 
 1. Não existe professor sem qualquer turma associada.
 1. Uma turma pode existir mesmo sem nenhum aluno associado.
 
+### Exercícios
+
+1. Quais as demandas informacionais atendidas pelos esquemas elabaorados pelo Projetista 01, pelo Projetista 02 e pelo Projetista 03?
+1. Quais os requisitos estruturais cumpridos pelos esquemas elabaorados pelo Projetista 01, pelo Projetista 02 e pelo Projetista 03?
 
 ## Não há atividade para este tópico, excepcionalmente.
