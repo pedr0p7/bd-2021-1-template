@@ -5,8 +5,8 @@ Três projetistas de banco de dados - Projetista 01, Projetista 02 e Projetista 
 
 <img src="../media/fig-der-universidade-01.jpg" width="500">
 
-<img src="../media/fig-der-universidade-01.jpg" width="500">
+<img src="../media/fig-der-universidade-02.jpg" width="500">
 
-<img src="../media/fig-der-universidade-01.jpg" width="500">
+<img src="../media/fig-der-universidade-03.jpg" width="500">
 
 ## Não há atividade para este tópico, excepcionalmente.
