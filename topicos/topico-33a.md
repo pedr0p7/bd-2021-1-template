@@ -1,16 +1,12 @@
-## [Tópico T32] - Mapeamento MER para MR (parte 2)
+## [Tópico T33a] - Exercício
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
-Favor ler e estudar sobre **Normalização**, clique [aqui](../media/bd-2021-1-normalizacao.pdf).
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+Três projetistas de banco de dados - Projetista 01, Projetista 02 e Projetista 03 - foram contratados para elaborar o esquema conceitual segundo o Medelo Entidade Relacionamento, referente ao banco de dados de uma universidade: **BD Universidade**, conforme ilustrado nas figuras abaixo.
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 32", para responder: 
+<img src="../media/fig-der-universidade-01.jpg" width="300">
 
-1. Você consegue entender as **formas normais**, apresentadas no tópico?<br>
-Favor selecionar uma das respostas a seguir:<br>
-"Sim, eu consigo entender as **formas normais**, apresentadas no tópico", ou<br>
-"Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
+<img src="../media/fig-der-universidade-01.jpg" width="300">
 
-## Artefatos
+<img src="../media/fig-der-universidade-01.jpg" width="300">
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-1-bxx, cujo título é "Tópico 32", para entender as **formas normais**, apresentadas no tópico.
+## Não há atividade para este tópico, excepcionalmente.
