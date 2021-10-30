@@ -2,7 +2,7 @@
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Favor ler e estudar sobre **Normalização**, clique [aqui](../media/bd-2021-1-normalizacao.pdf).
-## Atividade (data limite: **25/10/2021 23h59min59s**)
+## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 32", para responder: 
 
