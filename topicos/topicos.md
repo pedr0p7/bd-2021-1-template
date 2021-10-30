@@ -1,3 +1,5 @@
+[Tópico T33a](./topico-33a.md) - Exercício<br>
+[Tópico T32](./topico-32.md) - Normalização<br>
 [Tópico T31](./topico-31.md) - Mapeamento MER para MR (parte 4)<br>
 [Tópico T30](./topico-30.md) - Mapeamento MER para MR (parte 3)<br>
 [Tópico T29](./topico-29.md) - Mapeamento MER para MR (parte 2)<br>
