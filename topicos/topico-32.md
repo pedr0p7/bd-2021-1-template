@@ -1,4 +1,4 @@
-## [Tópico T29] - Mapeamento MER para MR (parte 2)
+## [Tópico T32] - Mapeamento MER para MR (parte 2)
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Favor ler e estudar sobre **Normalização**, clique [aqui](../media/bd-2021-1-normalizacao.pdf).
