@@ -25,7 +25,7 @@ Algumas observações pertinenetes:
 
 ### Estratégias de integração de dados:<br>Consolidação de dados _versus_ Virtualização de dados
 
-1. **Consolidação de dados**<br>
+1. **<ins>Consolidação de dados</ins>**<br>
 É o processo clássico de integração de dados, que envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados, tal como um _data warehouse_.<br>
 - Em geral, emprega uma abordagem do tipo ETL (_Extract_, _Transform_, _Load_):<br>
 &#9745; **Extração**: Antes que os dados possam ser movidos para um novo destino, eles devem primeiro ser extraídos de sua origem. Dados estruturados e não estruturados são importados e consolidados em um único repositório. Nesta fase, os dados são chamados de 'dados brutos', e podem ser extraídos de uma ampla variedade de fontes.<br>
@@ -40,7 +40,7 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 &#9745; **Carregamento completo**: Todos os dados transformados (oriundos da linha de montagem de transformação) são carragedos como registros novos (e exclusivos) no _data warehouse_. Pode haver problemas de escala: manutenção dificultada pelo crescimento rápido (e exponencial) dos dados.<br>
 &#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
 
-2. **Virtualização de dados**<br>
+2. **<ins>Virtualização de dados</ins>**<br>
 Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
 
 
