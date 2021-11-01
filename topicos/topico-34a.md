@@ -14,7 +14,7 @@ Integração de dados se refere ao acesso, preferencialmente uniforme, a fontes 
 Algumas observações pertinenetes:
 - O acesso aos dados (por exemplo, consultas) deve ocorrer de maneira uniforme (conteúdo e estrutura), mesmo no cenário de fontes heterogêneas:
   - também, deve haver independência em relação a alterações nas fontes de dados;
-  - por exemplo, as fontes podem alterar seus formatos de dados e padrões de acesso a qualquer momento
+  - por exemplo, as fontes podem alterar seus formatos de dados e padrões de acesso a qualquer momento.
 - O cenário envolve fontes de dados que foram desenvolvidas independentemente umas das outras:
   - dados em bases relacionais, arquivos com conteúdo não estruturado, arquivos binários, arquivos JSON, arquivos XML, etc.
   - dados disponíveis por sistemas de gerencamento, por conexão/serviço Web, por acesso simples a um diretório, etc.
