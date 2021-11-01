@@ -7,7 +7,7 @@
 
 Mais informações, favor clicar [aqui](https://sissa.ufg.br/).
 
-### Inregração de dados
+### Integração de dados
 
 Integração de dados se refere ao acesso, preferencialmente uniforme, a fontes de dados autônomas e heterogêneas. Noutras palavras, ter visão unificada dos dados de múltiplas fontes de dados díspares, internas e/ou externas. 
 
@@ -23,6 +23,22 @@ Algumas observações pertinenetes:
   - acesso apropriado no caso de dados sensíveis.
 - O aumento do número de fontes representa um acréscimo importante aos desafios enfrentados.
 
+### Estratégias de integração de dados:<br>Consolidação de dados _versus_ Virtualização de dados
+
+1. **Consolidação de dados**<br>
+Envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados, tal como um _data warehouse_.<br>Em geral, emprega uma abordagem do tipo ETL (_Extract_, _Transform_, _Load_):
+- Extração: Antes que os dados possam ser movidos para um novo destino, eles devem primeiro ser extraídos de sua origem. Nesta primeira etapa do processo ETL, dados estruturados e não estruturados são importados e consolidados em um único repositório. Os dados brutos podem ser extraídos de uma ampla variedade de fontes, incluindo:
+
+Bancos de dados existentes e sistemas legados
+Ambientes em nuvem, híbridos e locais
+Aplicativos de vendas e marketing
+Dispositivos móveis e aplicativos
+Sistemas de CRM
+Plataformas de armazenamento de dados
+Armazéns de dados
+Ferramentas analíticas
+
+Como a consolidação de dados é o processo clássico de integração de dados que aproveita a tecnologia ETL, os dois termos às vezes são usados alternadamente. Envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados como um data warehouse. Embora complexo, ele se encaixa na maioria dos casos. O estilo de entrega para consolidar dados é o armazenamento de dados comum que abordamos a seguir.
 
 A virtualização de dados apresenta uma abordagem moderna para integração de dados. Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
 
