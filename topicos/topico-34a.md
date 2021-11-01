@@ -27,7 +27,7 @@ Algumas observações pertinenetes:
 
 1. **Consolidação de dados**<br>
 Envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados, tal como um _data warehouse_.<br>Em geral, emprega uma abordagem do tipo ETL (_Extract_, _Transform_, _Load_):
-- Extração: Antes que os dados possam ser movidos para um novo destino, eles devem primeiro ser extraídos de sua origem. Nesta primeira etapa do processo ETL, dados estruturados e não estruturados são importados e consolidados em um único repositório. Os dados brutos podem ser extraídos de uma ampla variedade de fontes, incluindo:
+  - Extração: Antes que os dados possam ser movidos para um novo destino, eles devem primeiro ser extraídos de sua origem. Nesta primeira etapa do processo ETL, dados estruturados e não estruturados são importados e consolidados em um único repositório. Os dados brutos podem ser extraídos de uma ampla variedade de fontes, incluindo:
 
 Bancos de dados existentes e sistemas legados
 Ambientes em nuvem, híbridos e locais
