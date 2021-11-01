@@ -23,4 +23,15 @@ Algumas observações pertinenetes:
   - acesso apropriado no caso de dados sensíveis.
 - O aumento do número de fontes representa um acréscimo importante aos desafios enfrentados.
 
+
+A virtualização de dados apresenta uma abordagem moderna para integração de dados. Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
+
+ETL / ELT
+ETL, ou extrair, transformar, carregar, é o processo de replicar dados de fontes de dados e carregar esses dados em bancos de dados e data warehouses para armazenamento. Ferramentas ETL modernas também fornecem ELT, transpondo as etapas de carregamento e transformação de dados e aproveitando o banco de dados subjacente para transformar os dados depois de carregados.
+
+Essa estratégia é popular para lidar com grandes volumes de dados e é a abordagem tradicional para integração de dados. É ideal para executar uma ampla gama de iniciativas corporativas, desde BI e análises a IA, desenvolvimento de aplicativos e muito mais em cima de um banco de dados central ou data warehouse. Por definição, essa abordagem usa integração de dados pura - integrando seus dados sem integrar seus aplicativos.
+
+Se você precisa gerenciar e automatizar suas integrações de dados em escala, confira CData Sync, nossa solução ETL / ELT líder para integração de dados. Com o Sync, você pode replicar dados de mais de 100 aplicativos e fontes de dados em mais de 30 bancos de dados e depósitos para automatizar a replicação de dados.
+
+
 ## Não há atividade para este tópico, excepcionalmente.
