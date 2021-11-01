@@ -3,13 +3,13 @@
 
 ### Contexto
 
-Sissa denota uma plataforma baseada em Inteligência Artificial que combina integração de dados acadêmicos, monitoramento eficiente de indicadores, previsão de sucesso do estudante, capacitação de tutores e interações por pares em um sistema que apoia o estudante.
+**Sissa** denota uma plataforma baseada em Inteligência Artificial que combina integração de dados acadêmicos, monitoramento eficiente de indicadores, previsão de sucesso do estudante, capacitação de tutores e interações por pares em um sistema que apoia o estudante.
 
 Mais informações, favor clicar [aqui](https://sissa.ufg.br/).
 
 ### Inregração de dados
 
-Integração de dados se refere ao acesso, preferencialmente uniforme, a conjunto de fontes de dados autônomas e heterogêneas. Noutras palavras, ter visão unificada dos dados de múltiplas fontes de dados díspares, internas e/ou externas. 
+Integração de dados se refere ao acesso, preferencialmente uniforme, a fontes de dados autônomas e heterogêneas. Noutras palavras, ter visão unificada dos dados de múltiplas fontes de dados díspares, internas e/ou externas. 
 
 Algumas observações pertinenetes:
 - O acesso aos dados (por exemplo, consultas) deve ocorrer de maneira uniforme (conteúdo e estrutura), mesmo no cenário de fontes heterogêneas:
