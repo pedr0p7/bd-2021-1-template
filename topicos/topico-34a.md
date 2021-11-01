@@ -40,14 +40,11 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 &#9745; **Carregamento completo**: Todos os dados transformados (oriundos da linha de montagem de transformação) são carragedos como registros novos (e exclusivos) no _data warehouse_. Pode haver problemas de escala: manutenção dificultada pelo crescimento rápido (e exponencial) dos dados.<br>
 &#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
 
-A virtualização de dados apresenta uma abordagem moderna para integração de dados. Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
+2. **Virtualização de dados**<br>
+Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
 
-ETL / ELT
-ETL, ou extrair, transformar, carregar, é o processo de replicar dados de fontes de dados e carregar esses dados em bancos de dados e data warehouses para armazenamento. Ferramentas ETL modernas também fornecem ELT, transpondo as etapas de carregamento e transformação de dados e aproveitando o banco de dados subjacente para transformar os dados depois de carregados.
 
-Essa estratégia é popular para lidar com grandes volumes de dados e é a abordagem tradicional para integração de dados. É ideal para executar uma ampla gama de iniciativas corporativas, desde BI e análises a IA, desenvolvimento de aplicativos e muito mais em cima de um banco de dados central ou data warehouse. Por definição, essa abordagem usa integração de dados pura - integrando seus dados sem integrar seus aplicativos.
 
-Se você precisa gerenciar e automatizar suas integrações de dados em escala, confira CData Sync, nossa solução ETL / ELT líder para integração de dados. Com o Sync, você pode replicar dados de mais de 100 aplicativos e fontes de dados em mais de 30 bancos de dados e depósitos para automatizar a replicação de dados.
 
 
 ## Não há atividade para este tópico, excepcionalmente.
