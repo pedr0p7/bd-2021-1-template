@@ -28,15 +28,16 @@ Algumas observações pertinenetes:
 1. **Consolidação de dados**<br>
 É o processo clássico de integração de dados, que envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados, tal como um _data warehouse_.<br>Em geral, emprega uma abordagem do tipo ETL (_Extract_, _Transform_, _Load_):<br>
 &#9745; **Extração**: Antes que os dados possam ser movidos para um novo destino, eles devem primeiro ser extraídos de sua origem. Dados estruturados e não estruturados são importados e consolidados em um único repositório. Nesta fase, os dados são chamados de 'dados brutos', e podem ser extraídos de uma ampla variedade de fontes.<br>
-&#9787; **Transformação**: Regras podem ser aplicados para garantir a 'qualidade e acessibilidade' dos dados, e envolve:<br>
+&#9745; **Transformação**: Regras podem ser aplicados para garantir a 'qualidade e acessibilidade' dos dados, e envolve:<br>
 Limpeza - inconsistências e valores ausentes nos dados são resolvidos.<br>
 Padronização - regras de formatação são aplicadas ao conjunto de dados.<br>
 Deduplicação - dados redundantes são excluídos ou descartados.<br>
 Verificação - dados inutilizáveis são removidos e anomalias são sinalizadas.<br>
 Classificação - os dados são organizados de acordo com o tipo.<br>
 Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas para melhorar a qualidade dos dados.<br>
-
-Como a consolidação de dados é o processo clássico de integração de dados que aproveita a tecnologia ETL, os dois termos às vezes são usados alternadamente. Envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados como um data warehouse. Embora complexo, ele se encaixa na maioria dos casos. O estilo de entrega para consolidar dados é o armazenamento de dados comum que abordamos a seguir.
+&#9745; **Carga**: Envolve carregar os dados recém-transformados em um novo destino (repositório). Os dados podem ser carregados todos de uma vez (carga total) ou em intervalos programados (carga incremental):<br>
+&#9745; **Carregamento completo**: Todos os dados transformados (oriundos da linha de montagem de transformação) são carragedos como registros novos (e exclusivos) no _data warehouse_. Pode haver problemas de escala: manutenção dificultada pelo crescimento rápido (e exponencial) dos dados.<br>
+&#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
 
 A virtualização de dados apresenta uma abordagem moderna para integração de dados. Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
 
