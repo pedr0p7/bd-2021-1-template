@@ -7,4 +7,8 @@ Sissa denota uma plataforma baseada em Inteligência Artificial que combina inte
 
 Mais informações, favor clicar [aqui](https://sissa.ufg.br/).
 
+### Inregração de dados
+
+
+
 ## Não há atividade para este tópico, excepcionalmente.
