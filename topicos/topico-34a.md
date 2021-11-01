@@ -18,7 +18,7 @@ Algumas observações pertinenetes:
 - Envolve fontes de dados que foram desenvolvidas independentemente umas das outras:
   - dados em bases relacionais, arquivos com conteúdo não estruturado, arquivos binários, arquivos JSON, arquivos XML, etc.
   - dados disponíveis por sistemas de gerencamento, por conexão/serviço Web, por acesso simples a um diretório, etc.
-- Os podem requerer privacidade:
+- O acesso aos dados podem requerer privacidade:
   - acesso restrito a usuários e a operações sobre os dados;
   - acesso apropriado no caso de dados sensíveis.
 - O aumento do número de fontes representa um acréscimo importante aos desafios enfrentados.
