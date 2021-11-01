@@ -41,9 +41,8 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 &#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
 
 2. **<ins>Virtualização de dados</ins>**<br>
-Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma visão integrada de todos os dados aos consumidores de dados.
-
-
+Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma **visão integrada** de todos os dados aos consumidores de dados.<br>Alguns tipos comumente aplicados:
+&#9745; **_Global as view_**: Conforme a figura a seguir, há um esquema global age como uma visão do esquema de origem, ou seja, o esquema do mediador é descrito em termos de esquema local. Dada uma consulta sobre o esquema global, o mediador seguirá as regras e modelos existentes para converter a consulta em consultas específicas da fonte. Ele envia as novas consultas aos wrappers para execução. O Wrapper procura todas as expressões possíveis e como elas podem ser combinadas para responder à consulta dada.
 
 
 
