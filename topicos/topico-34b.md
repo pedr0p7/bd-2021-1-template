@@ -5,8 +5,8 @@ Vale ressaltar que, no escopo da disciplina, a disponibilização de dados é li
 - acesso a subconjunto reduzido dos dados;
 - fornecimento de 03 (três) visões, para todo o _data warehouse_;
 
+#### [Questão 01]: Por que a disponibilização de dados é limitada à disciplina?<br>[Resposta]: Penso que o projeto está em curso, várias evidências estão em validação e ainda não publicadas, e há conteúdo sensível e passível de mecanismos de segurança e anonimização.
 
-#### [Questão 01]: O projeto Sissa adota consolidação de dados ou virtualização de dados?<br>[Resposta]: ???
-
+#### [Questão 02]: Apesar do acesso limitado aos dados, há algum esquema publicado para _data warehouse_, mesmo que em rascunho?<br>[Resposta]: Sim, favor ver [aqui](https://static.sissa.ufg.br/up_images/modelo.png).
 
 ## Não há atividade para este tópico, excepcionalmente.
