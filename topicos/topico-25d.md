@@ -1,4 +1,4 @@
-## [Tópico T25c] - Modelo Entidade Relacionamento (MER) - Exercício (cont. 3)
+## [Tópico T25d] - Modelo Entidade Relacionamento (MER) - Exercício (cont. 3)
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Seja o diagrama abaixo, referente ao esquema conceitual a um _banco de dados de Vendas Online_:
