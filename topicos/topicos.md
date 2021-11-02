@@ -7,6 +7,7 @@
 [Tópico T28](./topico-28.md) - Mapeamento MER para MR (parte 1)<br>
 [Tópico T27](./topico-27.md) - Exercício de revisão: SQL, Modelo Relacional<br>
 [Tópico T26](./topico-26.md) - Modelo Entidade Relacionamento (MER) - Generalização/Especialização<br>
+[Tópico T25d](./topico-25d.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 3)<br>
 [Tópico T25c](./topico-25c.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 2)<br>
 [Tópico T25b](./topico-25b.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 1)<br>
 [Tópico T25a](./topico-25a.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
