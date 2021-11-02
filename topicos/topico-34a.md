@@ -22,7 +22,7 @@ Algumas observações pertinenetes:
 1. **<ins>Consolidação de dados</ins>**<br>
 É o processo clássico de integração de dados, que envolve a combinação de dados de fontes distintas, removendo suas redundâncias, eliminando quaisquer erros e agregando-os em um único armazenamento de dados, tal como um _data warehouse_.<br>
 - Em geral, emprega uma abordagem do tipo ETL (_Extract_, _Transform_, _Load_):<br>
-&#9745; **Extração**: Antes que os dados possam ser movidos para um novo destino, eles devem primeiro ser extraídos de sua origem. Dados estruturados e não estruturados são importados e consolidados em um único repositório. Nesta fase, os dados são chamados de 'dados brutos', e podem ser extraídos de uma ampla variedade de fontes.<br>
+&#9745; **Extração**: Antes que os dados possam ser movidos (copiados) para um novo destino, eles devem primeiro ser extraídos de sua origem. Dados estruturados e não estruturados são importados e consolidados em um único repositório. Nesta fase, os dados são chamados de 'dados brutos', e podem ser extraídos de uma ampla variedade de fontes.<br>
 &#9745; **Transformação**: Regras podem ser aplicados para garantir a 'qualidade e acessibilidade' dos dados, e envolve:<br>
 Limpeza - inconsistências e valores ausentes nos dados são resolvidos.<br>
 Padronização - regras de formatação são aplicadas ao conjunto de dados.<br>
