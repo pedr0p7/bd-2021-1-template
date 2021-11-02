@@ -1,4 +1,4 @@
-## [Tópico T34a] - Projeto SISSA
+## [Tópico T34a] - Integração de dados no projeto Sissa
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 ### Contexto
