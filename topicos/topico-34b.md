@@ -11,4 +11,7 @@ Vale ressaltar que, no escopo da disciplina, a disponibilização de dados é li
 **[Questão 02]:** Apesar do acesso limitado aos dados, há algum esquema publicado para o _data warehouse_, mesmo que em forma de rascunho?<br>
 **[Resposta]:** Sim, favor ver [aqui](https://static.sissa.ufg.br/up_images/modelo.png).
 
+**[Questão 03]:** Com ocorre a interação entre as Instituições de Ensino Superior e os serviços Sissa, com o objetivo de 'alimentar' o _data warehouse_?<br>
+**[Resposta]:** Os dados são fornecidos na forma de APIs em pacotes, conforme descrito aque [aqui](https://api.sissa.ufg.br/).
+
 ## Não há atividade para este tópico, excepcionalmente.
