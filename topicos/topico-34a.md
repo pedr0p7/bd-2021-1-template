@@ -44,22 +44,10 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 <img src="../media/fig-integracao-por-consolidacao.jpg" width="300">
 
 2. **<ins>Virtualização de dados</ins>**<br>
-Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma **visão integrada** de todos os dados aos consumidores de dados.<br>O **esquema mediado** (_mediated schema_) se refere à combinação dos esquemas de várias fontes.<br>**O mapeamento ocorre somente no momento da consulta.**<br>Quando um usuário faz uma consulta, ela é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes as avaliam e devolvem os resultados.<br>Os resultados são combinados e enviados ao usuário final.<br>**Este processo é denominado mediação.**<br>Há dois tipos de mediação:
+Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma **visão integrada** de todos os dados aos consumidores de dados.<br>O **esquema mediado** (_mediated schema_), também denominado _esquema global_, se refere à combinação dos esquemas de várias fontes.<br>**O mapeamento ocorre somente no momento da consulta.**<br>Quando um usuário faz uma consulta, ela é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes as avaliam e devolvem os resultados.<br>Os resultados são combinados e enviados ao usuário final, conforme a figura a seguir.<br>**Este processo é denominado mediação.**<br>Há dois tipos de mediação:
+- mediação global-as-view (GAV) - em inclusões ou exclusões de fontes de dados, em geral modificações ocorrem no esquema global;
+- mediação local-as-view (LAV) - em inclusões ou exclusões de fontes de dados, o esquema global não é afetado, pois cada fonte é mapeada de maneira independente.
 
-
-A mediação envolve um mediador (_mediator_) que é uma visão virtual dos dados e não armazena nenhum dado, pois os dados são armazenados nas fontes originais. O esquema de várias fontes é analisado e combinado, para se definir um esquema virtual de mediador.<br>**O mapeamento ocorre somente no momento da consulta.**<br>Quando um usuário faz uma consulta, ela é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes os avaliam e devolvem os resultados.<br> Os resultados são combinados e enviados ao usuário final.<br>**Este processo é denominado mediação.**<br>
-- O processo utiliza _wrappers_, que são responsáveis por realizar o mapeamento propriamente dito das consultas. Eles usam modelos (que já foram criados) que representam muitas consultas e, portanto, são flexíveis. Se a consulta do mediador corresponder a um modelo, os resultados serão retornados, caso contrário, não. 
-- 
-- 
-- Existem dois tipos de mediadores, eles são Global como Visualização e Local como Visualização. Discutiremos Global como View.
-
-A mediação envolve um mediador (_mediator_) que é uma **visão virtual dos dados** e não armazena nenhum dado, pois os dados são armazenados nas fontes. O esquema de várias fontes é combinado formando um único esquema virtual de mediador (_global esquema_).<br>**O mapeamento ocorre no momento da consulta.**<br>Quando um usuário faz uma consulta (ou seja, uma consulta sobre o esquema global, denominada _consulta original_), o mediador seguirá as regras e modelos existentes para converter a consulta original em consultas específicas de cada fonte. O mediador envia as novas consultas específicas aos _wrappers_ para execução.
-
-a consulta é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes os avaliam e devolvem os resultados.
-
-Os resultados são combinados e enviados ao usuário final. Este processo é denominado mediação. Utiliza wrappers que são responsáveis por realizar o mapeamento das consultas. Eles usam modelos (que já foram criados) que representam muitas consultas e, portanto, são flexíveis. Se a consulta do mediador corresponder a um modelo, os resultados serão retornados, caso contrário, não. Existem dois tipos de mediadores, eles são Global como Visualização e Local como Visualização. Discutiremos Global como View.
-
-
-
+<img src="../media/fig-integracao-por-virtualizacao.jpg" width="300">
 
 ## Não há atividade para este tópico, excepcionalmente.
