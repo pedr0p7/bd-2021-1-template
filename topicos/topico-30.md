@@ -86,6 +86,7 @@ Observações importantes:<br>
 
 RESPOSTA
 
+|Esquema de relação|
 |-|
 |ALUNO (MatriculaAluno, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
 |CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY<br>|
