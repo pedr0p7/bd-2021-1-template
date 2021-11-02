@@ -85,8 +85,8 @@ Observações importantes:<br>
 &#9786; Um aluno pode ter várias notas iguais em uma mesma turma.
 
 RESPOSTA<br>
-|ALUNO (MatriculaAluno, Nome, DataIngresso)<br>
-ALUNO (MatriculaAluno) IS PRIMARY KEY|
+|-|
+|ALUNO (MatriculaAluno, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
 |-|
 
 
