@@ -84,15 +84,13 @@ Observações importantes:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Mostre apenas o esquema lógico final após aplicar todas as regras.<br>
 &#9786; Um aluno pode ter várias notas iguais em uma mesma turma.
 
-RESPOSTA<br>
+RESPOSTA
+
 |-|
 |ALUNO (MatriculaAluno, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
 |-|
+|CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY<br>|
 
-
-<br>
-CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>
-CURSO (NumeroCurso) IS PRIMARY KEY<br>
 DISCIPLINA (CodigoDisciplina, Ementa, Descricao)<br>
 DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY<br>
 PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)<br>
