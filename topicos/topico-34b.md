@@ -13,6 +13,6 @@ Vale ressaltar que, no escopo da disciplina, a disponibilização de dados é li
 
 
 **[Questão 03]:** Apesar do acesso limitado aos dados, há algum esquema publicado para o _data warehouse_, mesmo que em forma de rascunho?<br>
-**[Resposta]:** Sim, favor ver [aqui](https://static.sissa.ufg.br/up_images/modelo.png).
+**[Resposta]:** Sim, penso que é um esquema preliminar, favor ver [aqui](https://static.sissa.ufg.br/up_images/modelo.png).
 
 ## Não há atividade para este tópico, excepcionalmente.
