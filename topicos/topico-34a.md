@@ -39,7 +39,9 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 - Os dados recém-transformados são então carregados em um novo destino (repositório). Os dados podem ser carregados todos de uma vez (carga total) ou em intervalos programados (carga incremental):<br>
 &#9745; **Carregamento completo**: Todos os dados transformados (oriundos da linha de montagem de transformação) são carragedos como registros novos (e exclusivos) no _data warehouse_. Pode haver problemas de escala: manutenção dificultada pelo crescimento rápido (e exponencial) dos dados.<br>
 &#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
-- Em suma, **O processo Extrair, transformar, carregar (ETL) extrai informações dos bancos de dados de origem, transforma-as e, em seguida, carrega-as no data warehouse.**
+- Em suma, **O processo Extrair, transformar, carregar (ETL) extrai informações dos bancos de dados de origem, transforma-as e, em seguida, carrega-as no data warehouse**, conforme a figura a seguir.
+
+<img src="../media/fig-integracao-por-consolidacao.jpg" width="300">
 
 2. **<ins>Virtualização de dados</ins>**<br>
 Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma **visão integrada** de todos os dados aos consumidores de dados.<br>Alguns tipos comumente aplicados:<br>
@@ -58,6 +60,6 @@ a consulta é mapeada para várias outras consultas e cada consulta é enviada �
 Os resultados são combinados e enviados ao usuário final. Este processo é denominado mediação. Utiliza wrappers que são responsáveis por realizar o mapeamento das consultas. Eles usam modelos (que já foram criados) que representam muitas consultas e, portanto, são flexíveis. Se a consulta do mediador corresponder a um modelo, os resultados serão retornados, caso contrário, não. Existem dois tipos de mediadores, eles são Global como Visualização e Local como Visualização. Discutiremos Global como View.
 
 
-<img src="../media/fig-global-as-view.jpg" width="300">
+
 
 ## Não há atividade para este tópico, excepcionalmente.
