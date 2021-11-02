@@ -50,6 +50,7 @@ Ao contrário das soluções ETL, que replicam dados, a virtualização de dados
 
 Mais informações, favor clicar [aqui](https://sissa.ufg.br/).
 
-#### [Questão]: O projeto Sissa adota consolidação de dados ou virtualização de dados?
+#### [Questão 01]: O projeto Sissa adota consolidação de dados ou virtualização de dados?<br>[Resposta]: ???
+
 
 ## Não há atividade para este tópico, excepcionalmente.
