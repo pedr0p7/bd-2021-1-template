@@ -35,14 +35,14 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 &#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
 - Em suma, **O processo Extrair, transformar, carregar (ETL) extrai informações dos bancos de dados de origem, transforma-as e, em seguida, carrega-as no data warehouse**, conforme a figura a seguir.
 
-<img src="../media/fig-integracao-por-consolidacao.jpg" width="300">
+<img src="../media/fig-integracao-por-consolidacao.jpg" width="350">
 
 2. **<ins>Virtualização de dados</ins>**<br>
 Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma **visão integrada** de todos os dados aos consumidores de dados.<br>O **esquema mediado** (_mediated schema_), também denominado _esquema global_, se refere ao esquema que abstrai e abrange o conteúdo de interesse dos esquemas de várias fontes.<br>**O mapeamento entre consultas ocorre somente no momento da consulta.**<br>Quando um usuário faz uma consulta, ela é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes as avaliam e devolvem os resultados.<br>Os resultados são combinados e enviados ao usuário final, conforme a figura a seguir.<br>**Este processo é denominado mediação.** Há dois tipos de mediação:
 - mediação global-as-view (GAV) - em inclusões ou exclusões de fontes de dados, em geral modificações ocorrem no esquema global;
 - mediação local-as-view (LAV) - em inclusões ou exclusões de fontes de dados, o esquema global não é afetado, pois cada fonte é mapeada de maneira independente.
 
-<img src="../media/fig-integracao-por-virtualizacao.jpg" width="300">
+<img src="../media/fig-integracao-por-virtualizacao.jpg" width="350">
 
 ### Projeto Sissa - Contexto
 
