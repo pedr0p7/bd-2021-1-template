@@ -61,6 +61,6 @@ Que alterações no esquema conceitual (DER) atendem às seguintes consultas:
 - Quais os produtos vendidos que já foram entregues ao cliente (comprador)?
 - Quais os produtos avaliados com 05 estrelas em um dado período?
 
-<img src="../media/fig-der-vendas-5.jpg" width="550">
+<img src="../media/fig-der-vendas-5.jpg" width="650">
 
 ## Não há atividade para este tópico, excepcionalmente.
