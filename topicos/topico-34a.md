@@ -39,11 +39,25 @@ Outras tarefas - quaisquer regras adicionais / opcionais podem ser aplicadas par
 - Os dados recém-transformados são então carregados em um novo destino (repositório). Os dados podem ser carregados todos de uma vez (carga total) ou em intervalos programados (carga incremental):<br>
 &#9745; **Carregamento completo**: Todos os dados transformados (oriundos da linha de montagem de transformação) são carragedos como registros novos (e exclusivos) no _data warehouse_. Pode haver problemas de escala: manutenção dificultada pelo crescimento rápido (e exponencial) dos dados.<br>
 &#9745; **Carregamento incremental**: Os dados recebidos são comparados com os dados disponíveis, e somente produz registros adicionais se informações novas e exclusivas forem encontradas.
+- Em suma, **O processo Extrair, transformar, carregar (ETL) extrai informações dos bancos de dados de origem, transforma-as e, em seguida, carrega-as no data warehouse.**
 
 2. **<ins>Virtualização de dados</ins>**<br>
 Ao contrário das soluções ETL, que replicam dados, a virtualização de dados deixa os dados nos sistemas de origem, simplesmente expondo uma **visão integrada** de todos os dados aos consumidores de dados.<br>Alguns tipos comumente aplicados:<br>
-&#9745; **_Global as view_**: Conforme a figura a seguir, há um esquema global age como uma visão do esquema de origem, ou seja, o esquema do mediador é descrito em termos de esquema local. Dada uma consulta sobre o esquema global, o mediador seguirá as regras e modelos existentes para converter a consulta em consultas específicas da fonte. Ele envia as novas consultas aos wrappers para execução. O Wrapper procura todas as expressões possíveis e como elas podem ser combinadas para responder à consulta dada.
+&#9745; **_Global as view_**: Favor ver a figura a seguir, há um esquema global age como uma visão do esquema de origem, ou seja, o esquema do mediador é descrito em termos de esquema local. Dada uma consulta sobre o esquema global, o mediador seguirá as regras e modelos existentes para converter a consulta em consultas específicas da fonte. Ele envia as novas consultas aos wrappers para execução. O Wrapper procura todas as expressões possíveis e como elas podem ser combinadas para responder à consulta dada.
 
-<img src="../media/fig-global-as-view.jpg" width="500">
+A mediação envolve um mediador (_mediator_) que é uma visão virtual dos dados e não armazena nenhum dado, pois os dados são armazenados nas fontes originais. O esquema de várias fontes é analisado e combinado, para se definir um esquema virtual de mediador, que engloba todos os esquemas das fontes originais.<br>**O mapeamento ocorre somente no momento da consulta.**<br>Quando um usuário faz uma consulta, ela é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes os avaliam e devolvem os resultados.<br> Os resultados são combinados e enviados ao usuário final.<br>**Este processo é denominado mediação.**<br>
+- O processo utiliza _wrappers_, que são responsáveis por realizar o mapeamento propriamente dito das consultas. Eles usam modelos (que já foram criados) que representam muitas consultas e, portanto, são flexíveis. Se a consulta do mediador corresponder a um modelo, os resultados serão retornados, caso contrário, não. 
+- 
+- 
+- Existem dois tipos de mediadores, eles são Global como Visualização e Local como Visualização. Discutiremos Global como View.
+
+A mediação envolve um mediador (_mediator_) que é uma **visão virtual dos dados** e não armazena nenhum dado, pois os dados são armazenados nas fontes. O esquema de várias fontes é combinado formando um único esquema virtual de mediador (_global esquema_).<br>**O mapeamento ocorre no momento da consulta.**<br>Quando um usuário faz uma consulta (ou seja, uma consulta sobre o esquema global, denominada _consulta original_), o mediador seguirá as regras e modelos existentes para converter a consulta original em consultas específicas de cada fonte. O mediador envia as novas consultas específicas aos _wrappers_ para execução.
+
+a consulta é mapeada para várias outras consultas e cada consulta é enviada às fontes. As fontes os avaliam e devolvem os resultados.
+
+Os resultados são combinados e enviados ao usuário final. Este processo é denominado mediação. Utiliza wrappers que são responsáveis por realizar o mapeamento das consultas. Eles usam modelos (que já foram criados) que representam muitas consultas e, portanto, são flexíveis. Se a consulta do mediador corresponder a um modelo, os resultados serão retornados, caso contrário, não. Existem dois tipos de mediadores, eles são Global como Visualização e Local como Visualização. Discutiremos Global como View.
+
+
+<img src="../media/fig-global-as-view.jpg" width="300">
 
 ## Não há atividade para este tópico, excepcionalmente.
