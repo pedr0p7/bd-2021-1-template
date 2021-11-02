@@ -88,13 +88,13 @@ RESPOSTA
 
 |Esquema de relação|
 |-|
-|ALUNO (MatriculaAluno, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
-|CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY|
-|DISCIPLINA (CodigoDisciplina, Ementa, Descricao)<br>DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY|
-|PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)<br>PROFESSOR (MatriculaProfessor) IS PRIMARY KEY<br>PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)|
-|TURMA (CodigoDisciplina, CodigoTurma, Semestre, Sala, Horario, MatriculaProfessor)<br>TURMA (CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>TURMA (CodigoDisciplina) REFERENCES DISCIPLINA (CodigoDisciplina)<br>TURMA (MatriculaProfessor) REFERENCES PROFESSOR (MatriculaProfessor)|
-|TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)<br>TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>TURMA_ALUNO (MatriculaAluno) REFERENCES ALUNO (MatriculaAluno)<br>TURMA_ALUNO (CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA (CodigoDisciplina, CodigoTurma, Semestre)|
-|TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia, Nota)<br>TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia) IS PRIMARY KEY<br>TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)|
+|ALUNO (<ins>MatriculaAluno</ins>, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
+|CURSO (<ins>NumeroCurso</ins>, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY|
+|DISCIPLINA (<ins>CodigoDisciplina</ins>, Ementa, Descricao)<br>DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY|
+|PROFESSOR (<ins>MatriculaProfessor</ins>, Nome, NumeroCurso)<br>PROFESSOR (MatriculaProfessor) IS PRIMARY KEY<br>PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)|
+|TURMA (<ins>CodigoDisciplina, CodigoTurma, Semestre</ins>, Sala, Horario, MatriculaProfessor)<br>TURMA (CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>TURMA (CodigoDisciplina) REFERENCES DISCIPLINA (CodigoDisciplina)<br>TURMA (MatriculaProfessor) REFERENCES PROFESSOR (MatriculaProfessor)|
+|TURMA_ALUNO (<ins>MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre</ins>)<br>TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>TURMA_ALUNO (MatriculaAluno) REFERENCES ALUNO (MatriculaAluno)<br>TURMA_ALUNO (CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA (CodigoDisciplina, CodigoTurma, Semestre)|
+|TURMA_ALUNO_NOTA (<ins>MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia</ins>, Nota)<br>TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre, Sequencia) IS PRIMARY KEY<br>TURMA_ALUNO_NOTA (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre) REFERENCES TURMA_ALUNO (MatriculaAluno, CodigoDisciplina, CodigoTurma, Semestre)|
 
 ## Artefatos
 
