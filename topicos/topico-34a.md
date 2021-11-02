@@ -1,12 +1,6 @@
 ## [Tópico T34a] - Integração de dados no projeto Sissa
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
-### Contexto
-
-**Sissa** denota uma plataforma baseada em Inteligência Artificial que combina integração de dados acadêmicos, monitoramento eficiente de indicadores, previsão de sucesso do estudante, capacitação de tutores e interações por pares em um sistema que apoia o estudante.
-
-Mais informações, favor clicar [aqui](https://sissa.ufg.br/).
-
 ### Integração de dados
 
 Integração de dados se refere ao acesso, preferencialmente uniforme, a fontes de dados autônomas e heterogêneas. Noutras palavras, ter visão unificada dos dados de múltiplas fontes de dados díspares, internas e/ou externas. 
@@ -49,5 +43,11 @@ Ao contrário das soluções ETL, que replicam dados, a virtualização de dados
 - mediação local-as-view (LAV) - em inclusões ou exclusões de fontes de dados, o esquema global não é afetado, pois cada fonte é mapeada de maneira independente.
 
 <img src="../media/fig-integracao-por-virtualizacao.jpg" width="300">
+
+### Projeto Sissa - Contexto
+
+**Sissa** denota uma plataforma baseada em Inteligência Artificial que combina integração de dados acadêmicos, monitoramento eficiente de indicadores, previsão de sucesso do estudante, capacitação de tutores e interações por pares em um sistema que apoia o estudante.
+
+Mais informações, favor clicar [aqui](https://sissa.ufg.br/).
 
 ## Não há atividade para este tópico, excepcionalmente.
