@@ -1,4 +1,4 @@
-## [Tópico T34b] - Projeto Sissa - dados disponibilizados à disciplina
+## [Tópico T34b] - Projeto Sissa - Dados disponibilizados à disciplina
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 **[Questão 01]:** No escopo da disciplina, há o acesso ao conteúdo completo do _data warehouse_?<br>
