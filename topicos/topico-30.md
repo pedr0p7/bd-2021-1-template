@@ -90,9 +90,9 @@ RESPOSTA
 |ALUNO (MatriculaAluno, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
 |-|
 |CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY<br>|
+|-|
+|DISCIPLINA (CodigoDisciplina, Ementa, Descricao)<br>DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY<br>|
 
-DISCIPLINA (CodigoDisciplina, Ementa, Descricao)<br>
-DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY<br>
 PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)<br>
 PROFESSOR (MatriculaProfessor) IS PRIMARY KEY<br>
 PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)<br>
