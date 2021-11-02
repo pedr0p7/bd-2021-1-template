@@ -11,7 +11,7 @@
 **[Resposta]:** Sim, é um esquema preliminar, favor ver [aqui](https://static.sissa.ufg.br/up_images/modelo.png).
 
 **[Questão 04]:** Como ocorre a interação entre as Instituições de Ensino Superior e os serviços Sissa, com o objetivo de 'alimentar' o _data warehouse_?<br>
-**[Resposta]:** Os serviços são fornecidos na forma de APIs, as queis são agrupadas em pacotes, conforme descrito aque [aqui](https://api.sissa.ufg.br/). Este _link_ trata-se da documentação que podemos usar para o entendimento dos dados do subconjunto disponibilizado.
+**[Resposta]:** Os serviços são fornecidos na forma de APIs, as quais são agrupadas em pacotes, conforme descrito aque [aqui](https://api.sissa.ufg.br/). Este _link_ trata-se da documentação que podemos usar para o entendimento dos dados do subconjunto disponibilizado.
 
 **[Questão 05]:** Como ocorre a disponibilização do subconjunto do _data warehouse_?<br>
 **[Resposta]:** Três visões do conteúdo do _data warehouse_ foram fornecidas, a saber:
