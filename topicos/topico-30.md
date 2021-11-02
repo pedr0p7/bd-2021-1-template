@@ -89,7 +89,7 @@ RESPOSTA
 |Esquema de relação|
 |-|
 |ALUNO (MatriculaAluno, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
-|CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY<|
+|CURSO (NumeroCurso, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY|
 |DISCIPLINA (CodigoDisciplina, Ementa, Descricao)<br>DISCIPLINA (CodigoDisciplina) IS PRIMARY KEY|
 |PROFESSOR (MatriculaProfessor, Nome, NumeroCurso)<br>PROFESSOR (MatriculaProfessor) IS PRIMARY KEY<br>PROFESSOR (NumeroCurso) REFERENCES CURSO (NumeroCurso)|
 |TURMA (CodigoDisciplina, CodigoTurma, Semestre, Sala, Horario, MatriculaProfessor)<br>TURMA (CodigoDisciplina, CodigoTurma, Semestre) IS PRIMARY KEY<br>TURMA (CodigoDisciplina) REFERENCES DISCIPLINA (CodigoDisciplina)<br>TURMA (MatriculaProfessor) REFERENCES PROFESSOR (MatriculaProfessor)|
