@@ -97,6 +97,10 @@ A atividade considera o esquema lógico do BD Biblioteca, conforme a figura abai
 1. Desenhe um DER para o BD Biblioteca, o qual pode ser mapeado para obter o esquema lógico do BD Biblioteca.<br>
 Aplique **precisamente** a notação apresentada no [Tópico 22](./topico-22.md).
 
+### Uma solução
+
+<img src="../media/fig-esquema-logico-biblioteca.jpg" width="250">
+
 ## Artefatos
 
 1. Diretório **topico-31**, criado no repositório do estudante, com o DER do BD Biblioteca.
