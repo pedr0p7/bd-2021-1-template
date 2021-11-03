@@ -84,9 +84,7 @@ Observações importantes:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Mostre apenas o esquema lógico final após aplicar todas as regras.<br>
 &#9786; Um aluno pode ter várias notas iguais em uma mesma turma.
 
-RESPOSTA
-
-|Esquema de relação|
+|Uma resposta|
 |-|
 |ALUNO (<ins>MatriculaAluno</ins>, Nome, DataIngresso)<br>ALUNO (MatriculaAluno) IS PRIMARY KEY|
 |CURSO (<ins>NumeroCurso</ins>, Nome, Diretor, Creditos)<br>CURSO (NumeroCurso) IS PRIMARY KEY|
