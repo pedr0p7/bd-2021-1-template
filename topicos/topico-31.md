@@ -99,7 +99,7 @@ Aplique **precisamente** a notação apresentada no [Tópico 22](./topico-22.md)
 
 ### Uma solução
 
-<img src="../media/bd-2021-1-biblioteca-2.jpeg" width="650">
+<img src="../media/bd-2021-1-biblioteca-2.jpg" width="650">
 
 ## Artefatos
 
