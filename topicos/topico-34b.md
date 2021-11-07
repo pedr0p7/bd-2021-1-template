@@ -31,6 +31,6 @@
 - Senha: _password_
 - Escolha de servidor: _MariaDB-server_
 
-
+Favor acessar o ambiente e explorar o banco de dados.
 
 ## Não há atividade para este tópico, excepcionalmente.
