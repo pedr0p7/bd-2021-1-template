@@ -5,7 +5,7 @@
 **[Resposta]:** Não, a disponibilização de dados é limitada, o acesso ocorre a um subconjunto reduzido dos dados.
 
 **[Questão 02]:** Por que a disponibilização de dados é limitada à disciplina?<br>
-**[Resposta]:** Porque o projeto está em curso, várias evidências estão em fase de descoberta e/ou validação e ainda não publicadas, e há conteúdo sensível e passível de mecanismos de segurança e anonimização.
+**[Resposta]:** Porque o projeto está em curso, várias evidências estão em fase de descoberta e/ou validação e ainda não publicadas, e há conteúdo sensível e passível de mecanismos de segurança e [anonimização](https://anonimizacao.com.br/).
 
 **[Questão 03]:** Apesar do acesso limitado aos dados, há algum esquema publicado para o _data warehouse_, mesmo que em forma de rascunho?<br>
 **[Resposta]:** Sim, é um esquema preliminar, favor ver [aqui](https://static.sissa.ufg.br/up_images/modelo.png).
