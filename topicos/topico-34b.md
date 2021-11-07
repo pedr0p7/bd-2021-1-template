@@ -21,8 +21,9 @@
 
 **[Questão 06]:** Como 'materizalizamos' os dados das visões  ?<br>
 **[Resposta]:** Temos três relações em um banco de dados do **Sistema MariaDB**:
-- PREINGRESSO (<ins>id_estudante</ins>, instituicao_ifes, uf_ensino_medio, ano_conclusao_ensino_medio, escola_publica_ensino_medio, nota_corte_curso, preferencia_curso_ingresso, convocacao, ano_ingresso, semestre_ingresso, forma_ingresso, nome_curso, modalidade, area, grau_academico, in_integral, in_matutino, in_vespertino, in_noturno, nota_mec, situacao_curso, turno, situacao_matriz, ano_implantacao, semestre_implantacao, ch_min_obrigatoria, ch_min_naoobrigatoria, ch_min_outra, ch_min_atividade_compl, ch_min_total, status, prazo_conclusao_minimo, prazo_conclusao_medio, prazo_conclusao_maximo)
-- **Visão acadêmica**: dados da participação do discente em disciplinas ofertadas pelos cursos de graduação.
-- **Visão predição**: dados pertinentes à predição de evasão do cursos de graduação.
+- **PREINGRESSO** (<ins>id_estudante</ins>, instituicao_ifes, uf_ensino_medio, ano_conclusao_ensino_medio, escola_publica_ensino_medio, nota_corte_curso, preferencia_curso_ingresso, convocacao, ano_ingresso, semestre_ingresso, forma_ingresso, nome_curso, modalidade, area, grau_academico, in_integral, in_matutino, in_vespertino, in_noturno, nota_mec, situacao_curso, turno, situacao_matriz, ano_implantacao, semestre_implantacao, ch_min_obrigatoria, ch_min_naoobrigatoria, ch_min_outra, ch_min_atividade_compl, ch_min_total, status, prazo_conclusao_minimo, prazo_conclusao_medio, prazo_conclusao_maximo)
+- **TURMAS** (id_estudante, nome_disciplina, ch_pratica, ch_teorica, ch_total, credito_total_disciplina, credito_pratica_disciplina, credito_teorica_disciplina, periodo_sugerido_disciplina, natureza, nucleo, ano_oferta_disciplina, semestre_oferta_disciplina, qtd_vagas_total, qtd_vagas_externas, ano_matricula, semestre_matricula, data_matricula, nota, frequencia, status_disciplina)
+- **PREDICAO** (id_estudante, Classe, Risco, Probabilidade_da_Classe, Semestres_Saida, Proba_Sem, Metodo_de_ML)
+
 
 ## Não há atividade para este tópico, excepcionalmente.
