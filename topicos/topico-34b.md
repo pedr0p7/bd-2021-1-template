@@ -14,7 +14,7 @@
 **[Resposta]:** Os serviços são fornecidos na forma de APIs, as quais são agrupadas em pacotes, conforme descrito [aqui](https://api.sissa.ufg.br/). Este _link_ trata-se da documentação disponível, que podemos usar para o entendimento dos dados do subconjunto disponibilizado. Mas requer _minerar_ os conceitos abordados.
 
 **[Questão 05]:** Como nos é disponibilizado o subconjunto de dados do _data warehouse_?<br>
-**[Resposta]:** Três visões nos foram fornecidas, em arquivos formato _csv, _a saber:
+**[Resposta]:** Três visões nos foram fornecidas, em arquivos formato _csv_, a saber:
 - **Visão pré-ingresso**: dados anteriores ao ingresso do discente na Instituição de Ensino Superior.
 - **Visão acadêmica**: dados da participação do discente em disciplinas ofertadas pelos cursos de graduação.
 - **Visão predição**: dados pertinentes à predição de evasão do cursos de graduação.
