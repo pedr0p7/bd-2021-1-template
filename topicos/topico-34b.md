@@ -25,7 +25,12 @@
 - **TURMAS** (id_estudante, nome_disciplina, ch_pratica, ch_teorica, ch_total, credito_total_disciplina, credito_pratica_disciplina, credito_teorica_disciplina, periodo_sugerido_disciplina, natureza, nucleo, ano_oferta_disciplina, semestre_oferta_disciplina, qtd_vagas_total, qtd_vagas_externas, ano_matricula, semestre_matricula, data_matricula, nota, frequencia, status_disciplina)
 - **PREDICAO** (id_estudante, Classe, Risco, Probabilidade_da_Classe, Semestres_Saida, Proba_Sem, Metodo_de_ML)
 
-**[Questão 07]:** Como foram 'materizalizados' os dados das visões disponobilizadas ?
-[Resposta]: Três relações foram criadas em um banco de dados - sissa - do Sistema MariaDB:
+**[Questão 07]:** Como ter acesso aos dados materializados ?<br>
+[Resposta]: Use este [link](http://200.137.197.36/phpMyAdmin/) e selecione:
+- Usuário: discente
+- Senha: password
+- Escolha de servidor: MariaDB-server
+
+
 
 ## Não há atividade para este tópico, excepcionalmente.
