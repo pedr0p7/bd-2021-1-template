@@ -33,4 +33,11 @@
 
 Favor acessar o ambiente e explorar o banco de dados.
 
+**[Outras Questões]:**
+
+- Qual a quantidade de _tuplas_ em cada relação? (Obs. A relação TURMAS não foi completamente 'carregada' no _data warehouse_, devido a limitações da máquina virtual.
+- Qual o domínio de cada atributo?
+- Que atributos podem identificar o discente?
+- Que atributos podem identificar a instituição de ensibo?
+
 ## Não há atividade para este tópico, excepcionalmente.
