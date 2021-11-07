@@ -27,9 +27,9 @@
 
 **[Questão 07]:** Como ter acesso aos dados materializados ?<br>
 [Resposta]: Use este [link](http://200.137.197.36/phpMyAdmin/) e selecione:
-- Usuário: discente
-- Senha: password
-- Escolha de servidor: MariaDB-server
+- Usuário: _discente_
+- Senha: _password_
+- Escolha de servidor: _MariaDB-server_
 
 
 
