@@ -154,7 +154,7 @@ RESPOSTA (?)
      - _apresente o primeiro e o último nomes do funcionário, bem como o valor NULL (referente ao nome do dependente)._
 
 RESPOSTA<br>
-SELECT Pnome, Unome, Nome_dependente(br>
+SELECT Pnome, Unome, Nome_dependente<br>
 FROM FUNCIONARIO LEFT OUTER JOIN DEPENDENTE<br>
 &nbsp;&nbsp;ON Cpf = Fcpf<br>
 WHERE (Pnome LIKE '%a%' AND Nome_dependente LIKE '%a%' AND Nome_dependente IS NOT NULL)<br>
