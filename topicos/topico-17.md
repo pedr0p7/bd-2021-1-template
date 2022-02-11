@@ -134,29 +134,26 @@ Retornando aos 'significados' do **Valor Nulo**:
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-1-bxx, com o título "Tópico 17", para responder: 
 
 1. Em consultas escritas em SQL, quando há pelo menos um NULL no predicado da cláusula WHERE, o resultado da avaliação é "desconhecido" (exceto quando são explicitamente empregados IS NULL ou IS NOT NULL); por exemplo, o resultado da avaliação de **(3 + NULL > 7)** é "desconhecido". Portanto, "verdadeiro", "falso" e "desconhecido" são os resultados possíveis na avaliação de predicados da cláusula WHERE. A regra geral é que são selecionadas apenas as combinações de _tuplas_ em que o predicado é avaliado como “verdadeiro”. Seja a relação R que possui quatro tuplas – (12, 15, 5100), (13, NULL, 3500), (14, NULL, NULL) e (15, 12, NULL) – em que o primeiro, o segundo e o terceiro valores em cada _tupla_ referem-se aos atributos **at1**, **at2** e **at3**, respectivamente. Os comandos a seguir representam consultas sobre R:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at2>12) AND (at3>3000) (um)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at2<12) OR (at3<3000) (zero)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C1a) SELECT * FROM R WHERE (at2>12) AND (at3>3000) (um)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (at2>12) OR NOT (at2>12) (dois)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C3) SELECT * FROM R WHERE (at2=at2) OR (NOT at3=at3) (dois)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C3) SELECT * FROM R WHERE (NOT at2<at2) AND (at3>at2) (um)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C3a) SELECT * FROM R WHERE (at2=at2) OR (NOT at3=at3) (dois)<br>
 A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e (C3), respectivamente, é:<br>
 &nbsp;&nbsp;(a) zero, um e dois.<br>
-&nbsp;&nbsp;(b) um, dois e um.<br>
-&nbsp;&nbsp;(c) um, dois, dois.<br>
-&nbsp;&nbsp;(d) zero, dois e dois.<br>
+&nbsp;&nbsp;(b) um, dois e um. BIA C1a, C2, C3<br>
+&nbsp;&nbsp;(c) um, dois, dois. BGI C1a, C2, C3a<br>
+&nbsp;&nbsp;(d) zero, dois e dois. BCC C1, C2, C3a<br>
 &nbsp;&nbsp;(e) dois, dois e um.<br>
-RESPOSTA (c)
+RESPOSTA (?)
 
-2. A partir da [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), escreva a seguinte consulta em SQL (uma única consulta que usa JUNÇÃO EXTERNA):
-   - Se o funcionário possui um ou mais dependentes: 
-     - _para cada dependente, apresente o primeiro e último nomes do funcionário responsável, bem como o nome do dependente, restrito aos casos em que a primeira letra do seu nome (se refere a você, que é discente da disciplina) está presente concomitantemente no primeiro nome do funcionário e no nome do dependente._
-   - Se o funcionário não possui qualquer dependente:
-     - _apresente o primeiro e o último nomes do funcionário, bem como o valor NULL (referente ao nome do dependente)._
-
+2. A partir da [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), escreva a seguinte consulta em SQL (use JUNÇÃO EXTERNA):<br>
+_Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver dependentes, liste também o nome dos seus dependentes_.
+  
 RESPOSTA<br>
 SELECT Pnome, Unome, Nome_dependente<br>
 FROM FUNCIONARIO LEFT OUTER JOIN DEPENDENTE<br>
-&nbsp;&nbsp;ON Cpf = Fcpf<br>
-WHERE (Pnome LIKE '%x%' AND Nome_dependente LIKE '%x%' AND Nome_dependente IS NOT NULL)<br>
-OR&nbsp;&nbsp;&nbsp;&nbsp;(Nome_dependente IS NULL)
+ON Cpf = Fcpf
 
 ## Artefatos
 
