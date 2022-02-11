@@ -157,8 +157,8 @@ RESPOSTA<br>
 SELECT Pnome, Unome, Nome_dependente<br>
 FROM FUNCIONARIO LEFT OUTER JOIN DEPENDENTE<br>
 &nbsp;&nbsp;ON Cpf = Fcpf<br>
-WHERE (Pnome LIKE '%a%' AND Nome_dependente LIKE '%a%' AND Nome_dependente IS NOT NULL)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;OR (Nome_dependente IS NULL)
+WHERE (Pnome LIKE '%x%' AND Nome_dependente LIKE '%x%' AND Nome_dependente IS NOT NULL)<br>
+OR&nbsp;&nbsp;&nbsp;&nbsp;(Nome_dependente IS NULL)
 
 ## Artefatos
 
